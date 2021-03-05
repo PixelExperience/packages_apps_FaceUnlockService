@@ -11,6 +11,7 @@ import android.os.Message;
 import android.os.Process;
 import android.util.Log;
 
+import org.pixelexperience.faceunlock.R;
 import org.pixelexperience.faceunlock.camera.listeners.ByteBufferCallbackListener;
 import org.pixelexperience.faceunlock.camera.listeners.CameraListener;
 import org.pixelexperience.faceunlock.camera.listeners.ErrorCallbackListener;
@@ -24,6 +25,7 @@ import static org.pixelexperience.faceunlock.FaceConstants.MG_UNLOCK_FACE_NOT_FO
 public class CameraFaceAuthController {
     private static final int CAM_MSG_ERROR = 101;
     private static final int CAM_MSG_STATE_UPDATE = 102;
+    private static final int CAM_MSG_OPEN = 103;
     private static final int MATCH_TIME_OUT_NO_FACE_MS = 3000;
     private static final int MATCH_TIME_OUT_WITH_FACE_MS = 4800;
     private static final int MSG_FACE_UNLOCK_COMPARE = 1003;
@@ -46,12 +48,7 @@ public class CameraFaceAuthController {
         }
     };
     private final int mCamID;
-    protected ErrorCallbackListener mErrorCallbackListener = new ErrorCallbackListener() {
-        @Override
-        public void onEventCallback(int i, Object unused) {
-            mHandler.sendEmptyMessage(CAM_MSG_ERROR);
-        }
-    };
+    protected ErrorCallbackListener mErrorCallbackListener = (i, unused) -> mHandler.sendEmptyMessage(CAM_MSG_ERROR);
     private ServiceCallback mCallback;
     @SuppressWarnings("deprecation")
     private Camera.Parameters mCameraParam;
@@ -82,14 +79,21 @@ public class CameraFaceAuthController {
     private Camera.Size mPreviewSize;
     private boolean mStop = false;
     private SurfaceTexture mTexture = null;
+    private int mCamOpenDelay;
 
     public CameraFaceAuthController(Context context, ServiceCallback serviceCallback) {
         mContext = context;
         mCallback = serviceCallback;
         mCamID = CameraUtil.getFrontFacingCameraId(context);
+        mCamOpenDelay = context.getResources().getInteger(R.integer.cam_open_delay_ms);
     }
 
     public void start() {
+        Log.i(TAG, "start enter");
+        mHandler.sendEmptyMessageDelayed(CAM_MSG_OPEN, mCamOpenDelay);
+    }
+
+    private void handleCameraOpen() {
         Log.i(TAG, "start enter");
         if (mCamID == -1) {
             Log.d(TAG, "No front camera, stop face unlock");
@@ -114,6 +118,7 @@ public class CameraFaceAuthController {
             mFaceUnlockHandler.removeMessages(MSG_FACE_UNLOCK_DETECT_AREA);
         }
         if (mHandler != null) {
+            mHandler.removeMessages(CAM_MSG_OPEN);
             mHandler.removeMessages(MSG_TIME_OUT_NO_FACE);
             mHandler.removeMessages(MSG_TIME_OUT_WITH_FACE);
         }
@@ -246,6 +251,8 @@ public class CameraFaceAuthController {
                 }
             } else if (message.what == CAM_MSG_STATE_UPDATE) {
                 handleCameraStateUpdate();
+            } else if (message.what == CAM_MSG_OPEN) {
+                handleCameraOpen();
             }
             return true;
         }
