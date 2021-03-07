@@ -36,7 +36,7 @@ import java.util.Random;
 public class FaceAuthService extends Service {
     private static final String ALARM_FAIL_TIMEOUT_LOCKOUT = "org.pixelexperience.faceunlock.ACTION_LOCKOUT_RESET";
     private static final String ALARM_TIMEOUT_FREEZED = "org.pixelexperience.faceunlock.freezedtimeout";
-    private static final long DEFAULT_IDLE_TIMEOUT_MS = 3600000 * 6; // 6 hours
+    private static final long DEFAULT_IDLE_TIMEOUT_MS = 3600000 * 4; // 4 hours
     private static final long FAIL_LOCKOUT_TIMEOUT_MS = 30000; // 30 seconds
     private static final int MAX_FAILED_ATTEMPTS_LOCKOUT_PERMANENT = 10;
     private static final int MAX_FAILED_ATTEMPTS_LOCKOUT_TIMED = 5;
@@ -52,13 +52,17 @@ public class FaceAuthService extends Service {
     private byte[] mEnrollToken;
     private FacePPImpl mFaceAuth;
     private PendingIntent mIdleTimeoutIntent;
-    private Boolean mLockout = false;
+    private boolean mOnIdleTimer;
+    private Integer mLockoutType = LOCKOUT_TYPE_DISABLED;
+    private static final int LOCKOUT_TYPE_DISABLED = 0;
+    private static final int LOCKOUT_TYPE_TIMED= 1;
+    private static final int LOCKOUT_TYPE_PERMANENT = 2;
     private PendingIntent mLockoutTimeoutIntent;
     private IFaceServiceReceiver mFaceReceiver;
-    private boolean mOnIdleTimer = false;
     private boolean mOnLockoutTimer = false;
     private FaceAuthServiceWrapper mService;
     private SharedUtil mShareUtil;
+    private boolean mUserUnlocked = false;
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -68,28 +72,21 @@ public class FaceAuthService extends Service {
             }
             if (action.equals(FaceAuthService.ALARM_TIMEOUT_FREEZED)) {
                 Log.d(FaceAuthService.TAG, "ALARM_TIMEOUT_FREEZED");
-                synchronized (mLockout) {
-                    mLockout = true;
+                synchronized (mLockoutType) {
+                    mLockoutType = LOCKOUT_TYPE_PERMANENT;
                 }
             } else if (action.equals(FaceAuthService.ALARM_FAIL_TIMEOUT_LOCKOUT)) {
                 Log.d(FaceAuthService.TAG, "ALARM_FAIL_TIMEOUT_LOCKOUT");
                 cancelLockoutTimer();
-                synchronized (mLockout) {
-                    mLockout = false;
+                synchronized (mLockoutType) {
+                    mLockoutType = LOCKOUT_TYPE_DISABLED;
                 }
                 synchronized (mAuthErrorCount) {
                     mAuthErrorCount = 0;
                 }
-            }
-            if (mShareUtil.getIntValueByKey(AppConstants.SHARED_KEY_FACE_ID) > -1) {
-                if (action.equals(Intent.ACTION_SCREEN_OFF)) {
-                    if (!mOnIdleTimer) {
-                        startIdleTimer();
-                    }
-                } else if (action.equals(Intent.ACTION_USER_PRESENT)) {
-                    cancelIdleTimer();
-                    resetLockoutCount();
-                }
+            } else if (action.equals(Intent.ACTION_SCREEN_OFF) || action.equals(Intent.ACTION_USER_PRESENT)) {
+                mUserUnlocked = action.equals(Intent.ACTION_USER_PRESENT);
+                updateTimersAndLockout();
             }
         }
     };
@@ -135,9 +132,13 @@ public class FaceAuthService extends Service {
                 Log.d(TAG, "onTimeout, withFace=" + withFace);
             }
             try {
-                mFaceReceiver.onAuthenticated(0, -1, mShareUtil.getByteArrayValueByKey(AppConstants.SHARED_KEY_ENROLL_TOKEN));
                 if (withFace) {
                     increaseAndCheckLockout();
+                }
+                if (mLockoutType != LOCKOUT_TYPE_DISABLED) {
+                    sendLockoutError();
+                }else{
+                    mFaceReceiver.onAuthenticated(0, -1, mShareUtil.getByteArrayValueByKey(AppConstants.SHARED_KEY_ENROLL_TOKEN));
                 }
                 stopAuthrate();
             } catch (RemoteException e) {
@@ -347,22 +348,29 @@ public class FaceAuthService extends Service {
     }
 
     private void increaseAndCheckLockout() {
-        if (mOnLockoutTimer){
+        if (mOnLockoutTimer || mLockoutType != LOCKOUT_TYPE_DISABLED){
             return;
         }
         synchronized (mAuthErrorCount) {
             mAuthErrorCount += 1;
             mAuthErrorThrottleCount += 1;
             Log.d(TAG, "increaseAndCheckLockout, mAuthErrorCount=" + mAuthErrorCount + ", mAuthErrorThrottleCount=" + mAuthErrorThrottleCount);
-            if (mAuthErrorThrottleCount >= MAX_FAILED_ATTEMPTS_LOCKOUT_PERMANENT) {
-                synchronized (mLockout) {
+            Log.d(TAG, "mUserUnlocked=" + mUserUnlocked);
+
+            if (mUserUnlocked && mAuthErrorCount == MAX_FAILED_ATTEMPTS_LOCKOUT_TIMED){
+                Log.d(TAG, "Too many attempts, lockout permanent because device is unlocked");
+                mLockoutType = LOCKOUT_TYPE_PERMANENT;
+                cancelLockoutTimer();
+            } else if (mAuthErrorThrottleCount == MAX_FAILED_ATTEMPTS_LOCKOUT_PERMANENT) {
+                synchronized (mLockoutType) {
                     Log.d(TAG, "Too many attempts, lockout permanent");
-                    mLockout = true;
+                    mLockoutType = LOCKOUT_TYPE_PERMANENT;
+                    cancelLockoutTimer();
                 }
-            } else if (mAuthErrorCount >= MAX_FAILED_ATTEMPTS_LOCKOUT_TIMED) {
-                synchronized (mLockout) {
+            } else if (mAuthErrorCount == MAX_FAILED_ATTEMPTS_LOCKOUT_TIMED) {
+                synchronized (mLockoutType) {
                     Log.d(TAG, "Too many attempts, lockout for 30s");
-                    mLockout = true;
+                    mLockoutType = LOCKOUT_TYPE_TIMED;
                 }
                 mAuthErrorCount = 0;
                 startLockoutTimer();
@@ -370,11 +378,23 @@ public class FaceAuthService extends Service {
         }
     }
 
+    private void updateTimersAndLockout(){
+        if (mShareUtil.getIntValueByKey(AppConstants.SHARED_KEY_FACE_ID) > -1 && !mUserUnlocked) {
+            if (!mOnIdleTimer){
+                cancelIdleTimer();
+                startIdleTimer();
+            }
+        }else{
+            cancelIdleTimer();
+            resetLockoutCount();
+        }
+    }
+
     private void resetLockoutCount() {
         synchronized (mAuthErrorCount) {
             mAuthErrorCount = 0;
             mAuthErrorThrottleCount = 0;
-            mLockout = false;
+            mLockoutType = LOCKOUT_TYPE_DISABLED;
         }
         cancelLockoutTimer();
     }
@@ -470,12 +490,8 @@ public class FaceAuthService extends Service {
                 } catch (RemoteException e) {
                     e.printStackTrace();
                 }
-            } else if (mLockout) {
-                try {
-                    mFaceReceiver.onError(8, 0);
-                } catch (RemoteException e2) {
-                    e2.printStackTrace();
-                }
+            } else if (mLockoutType != LOCKOUT_TYPE_DISABLED) {
+                sendLockoutError();
             } else {
                 mWorkHandler.post(() -> {
                     mFaceAuth.compareStart();
@@ -573,9 +589,15 @@ public class FaceAuthService extends Service {
 
         @Override
         public void resetLockout(byte[] bArr) {
-            synchronized (mLockout) {
-                mLockout = false;
-            }
+            resetLockoutCount();
+        }
+    }
+
+    private void sendLockoutError(){
+        try {
+            mFaceReceiver.onError(mLockoutType == LOCKOUT_TYPE_PERMANENT ? 9 : 7, 0);
+        } catch (RemoteException e2) {
+            e2.printStackTrace();
         }
     }
 
