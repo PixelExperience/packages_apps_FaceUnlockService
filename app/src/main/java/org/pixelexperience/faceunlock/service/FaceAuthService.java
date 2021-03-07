@@ -584,7 +584,7 @@ public class FaceAuthService extends Service {
 
         @Override
         public int getAuthenticatorId() {
-            return mShareUtil.getIntValueByKey(AppConstants.SHARED_KEY_FACE_ID);
+            return -1;
         }
 
         @Override
