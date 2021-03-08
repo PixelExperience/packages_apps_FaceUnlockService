@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إلغاء قفل الجهاز بالوجه</string>
+    <string name="attr_light_dark">يحتاج الوجه مزيدًا من الضوء</string>
+    <string name="attr_light_high">يوجد على الوجه ضوء أكثر من اللازم</string>
+    <string name="attr_light_shadow">ثمة ظلال كثيرة على الوجه</string>
+    <string name="btn_done">تم</string>
+    <string name="btn_try">حاول مرة أخرى</string>
+    <string name="face_intro_conten_first_point">يُعدّ استخدام ميزة مطابقة الوجه أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور</string>
+    <string name="face_intro_content_second_point">يمكن لأي شخص يشبهك أن يلغي قفل هاتفك</string>
+    <string name="face_intro_content_third_point">تبقى البيانات المستخدمة للتعرّف على وجهك خاصة على هاتفك</string>
+    <string name="face_intro_next">التالي</string>
+    <string name="face_intro_remember">تذكر:</string>
+    <string name="face_intro_summary">يمكنك إلغاء قفل هاتفك بمجرد النظر إليه.</string>
+    <string name="face_intro_title">حول إلغاء قفل الجهاز بالوجه</string>
+    <string name="facelock_setup_notification_text">إعداد ميزة إلغاء قفل الجهاز بالوجه</string>
+    <string name="facelock_setup_notification_title">إلغاء القفل بلمحة</string>
+    <string name="policy_disabled_alert_msg">تم تعطيل ميزة إلغاء قفل الجهاز بالوجه من قبل المسؤول.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_summary">سيؤدي الضغط على مفتاح الطاقة إلى فتح الشاشة الرئيسية أو آخر تطبيق تم استخدامه عند مطابقة وجه ما</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_title">تجاوز شاشة القفل</string>
+    <string name="title_activity_face_intro">مقدمة عن إلغاء قفل الجهاز بالوجه</string>
+    <string name="unlock_failed_face_blur">الوجه مموّه جدًا</string>
+    <string name="unlock_failed_face_large">الوجه قريب جدًا</string>
+    <string name="unlock_failed_face_multi">تم اكتشاف عدة وجوه</string>
+    <string name="unlock_failed_face_not_complete">تم اكتشاف جزء من الوجه فحسب</string>
+    <string name="unlock_failed_face_small">الوجه بعيد جدًا</string>
+    <string name="upgrade_finish_summary">"أصبحت الآن جاهزًا لإلغاء قفل جهازك بواسطة ميزة إلغاء قفل الجهاز بالوجه"</string>
+    <string name="upgrade_finish_title">حسنًا!</string>
+</resources>

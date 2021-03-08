@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Отклучување со лик</string>
+    <string name="attr_light_dark">Лицето треба да биде повеќе осветлено</string>
+    <string name="attr_light_high">Лицето е премногу осветлено</string>
+    <string name="attr_light_shadow">На лицето има премногу сенки</string>
+    <string name="btn_done">Готово</string>
+    <string name="btn_try">ПРОБАЈ ПАК</string>
+    <string name="face_intro_conten_first_point">Препознавањето лик е помалку безбедно од шема, PIN или лозинка</string>
+    <string name="face_intro_content_second_point">Некој кој личи на вас би можел да ви го отклучи телефонот</string>
+    <string name="face_intro_content_third_point">Податоците што се користат за препознавање на вашиот лик се приватно складирани на вашиот телефон</string>
+    <string name="face_intro_next">СЛЕДНО</string>
+    <string name="face_intro_remember">Запомнете:</string>
+    <string name="face_intro_summary">Отклучете го телефонот така што ќе го погледнете.</string>
+    <string name="face_intro_title">За отклучувањето со лик</string>
+    <string name="facelock_setup_notification_text">Поставете отклучување со лик</string>
+    <string name="facelock_setup_notification_title">Отклучување со поглед</string>
+    <string name="policy_disabled_alert_msg">Администраторот ја оневозможил функцијата Отклучување со лик.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_summary">Притиснувањето на копчето за вклучување го отвора почетниот екран или последната користена апликација откако ќе се изврши препознавање на ликот</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_title">Заобиколи го заклучениот екран</string>
+    <string name="title_activity_face_intro">Вовед во отклучување со препознавање лик</string>
+    <string name="unlock_failed_face_blur">Лицето е премногу заматено</string>
+    <string name="unlock_failed_face_large">Лицето е премногу доближено</string>
+    <string name="unlock_failed_face_multi">Откриени се премногу лица</string>
+    <string name="unlock_failed_face_not_complete">Откриено е делумно лице</string>
+    <string name="unlock_failed_face_small">Лицето е премногу оддалечено</string>
+    <string name="upgrade_finish_summary">"Сега сте подготвени да го отклучувате уредот со отклучување со лице"</string>
+    <string name="upgrade_finish_title">Во ред!</string>
+</resources>

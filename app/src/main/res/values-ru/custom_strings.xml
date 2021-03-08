@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фейсконтроль</string>
+    <string name="attr_light_dark">Лицо недостаточно освещено</string>
+    <string name="attr_light_high">Лицо переосвещено</string>
+    <string name="attr_light_shadow">На лице слишком много тени</string>
+    <string name="btn_done">Готово</string>
+    <string name="btn_try">ПОВТОРИТЬ</string>
+    <string name="face_intro_conten_first_point">Распознавание лиц менее безопасно, чем использование графического ключа, PIN-кода или пароля.</string>
+    <string name="face_intro_content_second_point">Внешне похожие на вас люди могут разблокировать телефон.</string>
+    <string name="face_intro_content_third_point">Данные для распознавания вашего лица хранятся на телефоне.</string>
+    <string name="face_intro_next">ДАЛЕЕ</string>
+    <string name="face_intro_remember">Обратите внимание:</string>
+    <string name="face_intro_summary">Снимайте блокировку телефона, посмотрев на него.</string>
+    <string name="face_intro_title">О функции фейсконтроля</string>
+    <string name="facelock_setup_notification_text">Настройте фейсконтроль.</string>
+    <string name="facelock_setup_notification_title">Разблокировка взглядом</string>
+    <string name="policy_disabled_alert_msg">Фейсконтроль отключен администратором.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_summary">При нажатии кнопки питания после распознавания вашего лица откроется главный экран или последнее использовавшееся приложение</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_title">Обход экрана блокировки</string>
+    <string name="title_activity_face_intro">Общая информация о функции фейсконтроля</string>
+    <string name="unlock_failed_face_blur">Лицо слишком размыто</string>
+    <string name="unlock_failed_face_large">Лицо слишком близко</string>
+    <string name="unlock_failed_face_multi">Слишком много лиц</string>
+    <string name="unlock_failed_face_not_complete">Распознана только часть лица</string>
+    <string name="unlock_failed_face_small">Лицо слишком далеко</string>
+    <string name="upgrade_finish_summary">"Теперь вы можете разблокировать устройство при помощи функции фейсконтроля"</string>
+    <string name="upgrade_finish_title">Отлично!</string>
+</resources>

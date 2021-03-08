@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Odemknutí obličejem</string>
+    <string name="attr_light_dark">Obličej vyžaduje více světla</string>
+    <string name="attr_light_high">Obličej je přesvícený</string>
+    <string name="attr_light_shadow">Na obličeji je příliš mnoho stínů.</string>
+    <string name="btn_done">Hotovo</string>
+    <string name="btn_try">Zkusit znovu</string>
+    <string name="face_intro_conten_first_point">Rozpoznávání obličeje je méně bezpečné než gesto, kód PIN či heslo</string>
+    <string name="face_intro_content_second_point">Telefon by mohl odemknout někdo, kdo vypadá jako vy.</string>
+    <string name="face_intro_content_third_point">Data použitá k rozpoznávání obličeje jsou důvěrně uchována ve vašem telefonu.</string>
+    <string name="face_intro_next">Další</string>
+    <string name="face_intro_remember">Zapamatovat:</string>
+    <string name="face_intro_summary">Odemkněte telefon pouhým pohledem.</string>
+    <string name="face_intro_title">O funkci Odemknutí obličejem</string>
+    <string name="facelock_setup_notification_text">Nastavit odemknutí obličejem</string>
+    <string name="facelock_setup_notification_title">Odemknout pohledem</string>
+    <string name="policy_disabled_alert_msg">Funkce odemknutí obličejem byla deaktivována správcem.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_summary">Stiskem klávesy pro vypnutí a zapnutí se po rozpoznání obličeje zobrazí plocha nebo naposledy použitá aplikace.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_title">Obejít zamčenou obrazovku</string>
+    <string name="title_activity_face_intro">Představení funkce odemknutí obličejem</string>
+    <string name="unlock_failed_face_blur">Obličej je příliš rozmazaný.</string>
+    <string name="unlock_failed_face_large">Obličej je příliš blízko</string>
+    <string name="unlock_failed_face_multi">Nalezeno příliš mnoho obličejů</string>
+    <string name="unlock_failed_face_not_complete">Zachycena jen část obličeje</string>
+    <string name="unlock_failed_face_small">Obličej je příliš daleko.</string>
+    <string name="upgrade_finish_summary">"Nyní můžete své zařízení odemykat pomocí funkce Odemknutí obličejem"</string>
+    <string name="upgrade_finish_title">Super!</string>
+</resources>

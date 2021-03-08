@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gesichtsentsperrung</string>
+    <string name="attr_light_dark">Gesicht ist unterbelichtet</string>
+    <string name="attr_light_high">Gesicht ist überbelichtet</string>
+    <string name="attr_light_shadow">Zu viele Schatten</string>
+    <string name="btn_done">Fertig</string>
+    <string name="btn_try">ERNEUT VERSUCHEN</string>
+    <string name="face_intro_conten_first_point">Die Gesichtserkennung ist unsicherer als ein Muster, eine PIN oder ein Passwort</string>
+    <string name="face_intro_content_second_point">Jemand, der Ihnen ähnlich sieht, kann Ihr Telefon möglicherweise entsperren</string>
+    <string name="face_intro_content_third_point">Die zur Erkennung Ihres Gesichts verwendeten Daten sind auf dem Telefon als vertrauliche Informationen gespeichert</string>
+    <string name="face_intro_next">WEITER</string>
+    <string name="face_intro_remember">Bedenken Sie:</string>
+    <string name="face_intro_summary">Entsperren Sie das Telefon, indem Sie es ansehen.</string>
+    <string name="face_intro_title">Info zur Gesichtsentsperrung</string>
+    <string name="facelock_setup_notification_text">Gesichtsentsperrung einrichten</string>
+    <string name="facelock_setup_notification_title">Mit einem Blick entsperren</string>
+    <string name="policy_disabled_alert_msg">Die Gesichtsentsperrung wurde vom Administrator deaktiviert.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_summary">Durch Drücken der Ein-/Austaste wird der Startbildschirm oder die zuletzt verwendete App geöffnet, wenn das Gesicht erkannt wird</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_title">Sperrbildschirm umgehen</string>
+    <string name="title_activity_face_intro">Einführung zur Gesichtsentsperrung</string>
+    <string name="unlock_failed_face_blur">Gesicht zu unscharf</string>
+    <string name="unlock_failed_face_large">Gesicht zu nah</string>
+    <string name="unlock_failed_face_multi">Zu viele Gesichter erkannt</string>
+    <string name="unlock_failed_face_not_complete">Nur ein Teil des Gesichts erkannt</string>
+    <string name="unlock_failed_face_small">Gesicht zu weit weg</string>
+    <string name="upgrade_finish_summary">"Jetzt können Sie das Gerät mit der Gesichtsentsperrung entsperren."</string>
+    <string name="upgrade_finish_title">Perfekt!</string>
+</resources>
