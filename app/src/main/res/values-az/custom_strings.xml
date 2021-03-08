@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Üzün kiliddən açılması</string>
+    <string name="attr_light_dark">Üz üçün daha çox işıq lazımdır</string>
+    <string name="attr_light_high">Üzdə işıq həddən artıq çoxdur</string>
+    <string name="attr_light_shadow">Üzdə çox kölgə var</string>
+    <string name="btn_done">Hazırdır</string>
+    <string name="btn_try">YENİDƏN CƏHD ET</string>
+    <string name="face_intro_conten_first_point">Üz uyğunluğu naxış, PIN, paroldan daha təhlükəlidir</string>
+    <string name="face_intro_content_second_point">Sizə bənzəyən şəxs telefonu kiliddən aça bilər</string>
+    <string name="face_intro_content_third_point">Üzünüzü tanımaq üçün istifadə edilən məlumat telefonda fərdi saxlanır</string>
+    <string name="face_intro_next">NÖVBƏTİ</string>
+    <string name="face_intro_remember">Yadda saxla:</string>
+    <string name="face_intro_summary">Telefona baxaraq kiliddən açın.</string>
+    <string name="face_intro_title">Üzün kiliddən açılması barədə</string>
+    <string name="facelock_setup_notification_text">Üzlə kiliddənaçmanı qur</string>
+    <string name="facelock_setup_notification_title">Baxışla kiliddən aç</string>
+    <string name="policy_disabled_alert_msg">Üzlə kiliddən açma administrator tərəfindən qeyri-aktiv edildi.</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_summary">Enerji düyməsinə sıxmaq üz uyğun olduqda əsas ekran və ya son istifadə edilən proqramı açacaq</string>
+    <string name="security_settings_face_unlock_bypass_lock_screen_title">Baypas kilid ekranı</string>
+    <string name="title_activity_face_intro">Üzün kiliddən açılmasına təqdimat</string>
+    <string name="unlock_failed_face_blur">Üzünüz çox bulanıqdır</string>
+    <string name="unlock_failed_face_large">Üz çox yaxındır</string>
+    <string name="unlock_failed_face_multi">Həddən çox üz aşkar edildi</string>
+    <string name="unlock_failed_face_not_complete">Yalnız qismən üz aşkar edildi</string>
+    <string name="unlock_failed_face_small">Üz həddən çox uzaqdır</string>
+    <string name="upgrade_finish_summary">"İndi üz kilidini açmaqla cihazınızı açmağa hazırsınız"</string>
+    <string name="upgrade_finish_title">Yaxşı!</string>
+</resources>
