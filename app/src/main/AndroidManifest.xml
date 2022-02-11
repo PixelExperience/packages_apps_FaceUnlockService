@@ -4,6 +4,8 @@
     package="org.pixelexperience.faceunlock">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA_OPEN_CLOSE_LISTENER"/>
+    <uses-permission android:name="android.permission.SYSTEM_CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.MANAGE_BIOMETRIC" />

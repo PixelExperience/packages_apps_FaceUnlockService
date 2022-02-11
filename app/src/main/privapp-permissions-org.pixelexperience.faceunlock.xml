@@ -2,5 +2,6 @@
 <permissions>
     <privapp-permissions package="org.pixelexperience.faceunlock">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.SYSTEM_CAMERA"/>
     </privapp-permissions>
 </permissions>
