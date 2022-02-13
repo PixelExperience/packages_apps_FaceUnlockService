@@ -28,7 +28,6 @@ android_app {
         "hiddenapi-whitelist-org.pixelexperience.faceunlock",
         "faceunlock_vendor_dependencies",
     ],
-    product_specific: true,
 }
 
 prebuilt_etc {
@@ -36,7 +35,6 @@ prebuilt_etc {
     src: "privapp-permissions-org.pixelexperience.faceunlock.xml",
     sub_dir: "permissions",
     filename_from_src: true,
-    product_specific: true,
 }
 
 prebuilt_etc {
@@ -44,5 +42,4 @@ prebuilt_etc {
     src: "hiddenapi-whitelist-org.pixelexperience.faceunlock.xml",
     sub_dir: "sysconfig",
     filename_from_src: true,
-    product_specific: true,
 }
