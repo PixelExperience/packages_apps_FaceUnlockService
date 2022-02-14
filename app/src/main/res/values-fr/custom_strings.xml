@@ -5,17 +5,12 @@
     <string name="attr_light_high">Le visage est trop éclairé</string>
     <string name="attr_light_shadow">Trop d\'ombres sur le visage</string>
     <string name="btn_done">Terminé</string>
-    <string name="btn_try">RÉESSAYER</string>
     <string name="face_intro_conten_first_point">La correspondance faciale est moins sûre qu\'un schéma, qu\'un code PIN ou qu\'un mot de passe</string>
     <string name="face_intro_content_second_point">Quelqu\'un qui vous ressemble peut déverrouiller votre téléphone</string>
     <string name="face_intro_content_third_point">Les données utilisées pour reconnaître votre visage sont conservées sur votre téléphone comme données privées</string>
-    <string name="face_intro_next">SUIVANT</string>
     <string name="face_intro_remember">Rappel :</string>
     <string name="face_intro_summary">Déverrouillez votre téléphone simplement en le regardant.</string>
     <string name="face_intro_title">À propos du déverrouillage par reconnaissance faciale</string>
-    <string name="face_value_prop_cancel">Non merci</string>
-    <string name="face_value_prop_next">Configurer</string>
-    <string name="face_value_prop_summary">"Face unlock vous permet de déverrouiller votre téléphone juste en le regardant. Comme votre téléphone reconnait votre visage, l'écran de verrouillage affiche les notifications seulement quand il vous reconnait. "</string>
     <string name="facelock_setup_notification_text">Configurer la reconnaissance faciale</string>
     <string name="facelock_setup_notification_title">Déverrouiller d\'un simple coup d\'œil</string>
     <string name="face_camera_content">Alignez votre visage</string>

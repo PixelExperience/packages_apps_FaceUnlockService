@@ -5,11 +5,9 @@
     <string name="attr_light_high">Ansigtet er for oplyst</string>
     <string name="attr_light_shadow">Ansigtet har for mange skygger</string>
     <string name="btn_done">Udført</string>
-    <string name="btn_try">PRØV IGEN</string>
     <string name="face_intro_conten_first_point">Ansigtsmatching er ikke så sikkert som et mønster, en PIN-kode eller en adgangskode</string>
     <string name="face_intro_content_second_point">Nogen, som ligner dig, kan låse din telefon op</string>
     <string name="face_intro_content_third_point">Data, der bruges til at genkende dit ansigt, opbevares som private på din telefon</string>
-    <string name="face_intro_next">NÆSTE</string>
     <string name="face_intro_remember">Husk:</string>
     <string name="face_intro_summary">Lås din telefon op ved at kigge på den.</string>
     <string name="face_intro_title">Om Ansigtslås</string>

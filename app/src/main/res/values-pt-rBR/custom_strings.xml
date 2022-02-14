@@ -5,17 +5,12 @@
     <string name="attr_light_high">Há muita luz no rosto</string>
     <string name="attr_light_shadow">Há muita sombra no rosto</string>
     <string name="btn_done">Concluído</string>
-    <string name="btn_try">TENTE NOVAMENTE</string>
     <string name="face_intro_conten_first_point">O reconhecimento facial é menos seguro que um padrão, PIN ou senha</string>
     <string name="face_intro_content_second_point">Alguém que se parece com você pode desbloquear seu telefone</string>
     <string name="face_intro_content_third_point">Os dados usados para reconhecer seu rosto são mantidos em seu telefone de forma privada</string>
-    <string name="face_intro_next">PRÓXIMO</string>
     <string name="face_intro_remember">Lembre-se:</string>
     <string name="face_intro_summary">Desbloqueie seu telefone com apenas um olhar</string>
     <string name="face_intro_title">Sobre o desbloqueio facial</string>
-    <string name="face_value_prop_cancel">não, obrigado(a)</string>
-    <string name="face_value_prop_next">configurar</string>
-    <string name="face_value_prop_summary">"Com o desbloqueio facial, você só precisa olhar para seu telefone para acessá-lo. Como o telefone já conhece seu rosto, a tela de bloqueio vai exibir notificações somente quando você olhar para ela"</string>
     <string name="facelock_setup_notification_text">Configurar desbloqueio facial</string>
     <string name="facelock_setup_notification_title">Desbloqueie com um olhar</string>
     <string name="face_camera_content">Alinhe seu rosto</string>

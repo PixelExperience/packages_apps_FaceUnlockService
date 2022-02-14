@@ -5,17 +5,12 @@
     <string name="attr_light_high">Obličej je přesvícený</string>
     <string name="attr_light_shadow">Na obličeji je příliš mnoho stínů</string>
     <string name="btn_done">Hotovo</string>
-    <string name="btn_try">ZKUSIT ZNOVU</string>
     <string name="face_intro_conten_first_point">Rozpoznávání obličeje je méně bezpečné než gesto, kód PIN či heslo</string>
     <string name="face_intro_content_second_point">Telefon by mohl odemknout někdo, kdo vypadá jako vy</string>
     <string name="face_intro_content_third_point">Data použitá k rozpoznávání obličeje jsou důvěrně uchována ve vašem telefonu</string>
-    <string name="face_intro_next">DALŠÍ</string>
     <string name="face_intro_remember">Zapamatovat:</string>
     <string name="face_intro_summary">Odemkněte telefon pouhým pohledem.</string>
     <string name="face_intro_title">O funkci Odemknutí obličejem</string>
-    <string name="face_value_prop_cancel">Ne, děkuji</string>
-    <string name="face_value_prop_next">Nastavit</string>
-    <string name="face_value_prop_summary">"Funkce Odemknutí obličejem vám umožňuje snadno odemykat telefon pouhým pohledem. Jelikož telefon rozpozná vaši tvář, oznámení se zobrazí na zamčené obrazovce, pouze pokud se na telefon díváte"</string>
     <string name="facelock_setup_notification_text">Nastavit odemknutí obličejem</string>
     <string name="facelock_setup_notification_title">Odemknout pohledem</string>
     <string name="face_camera_content">Zarovnejte obličej</string>

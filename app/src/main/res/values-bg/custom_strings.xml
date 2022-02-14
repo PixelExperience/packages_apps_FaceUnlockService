@@ -5,17 +5,12 @@
     <string name="attr_light_high">Лицето има прекалено много светлина</string>
     <string name="attr_light_shadow">Лицето има прекалено много сенки</string>
     <string name="btn_done">Готово</string>
-    <string name="btn_try">ОПИТАЙТЕ ОТНОВО</string>
     <string name="face_intro_conten_first_point">Лицевото разпознаване не е толкова сигурно, колкото модел, PIN (код) или парола</string>
     <string name="face_intro_content_second_point">Някой, който прилича на Вас, може да отключи телефона Ви</string>
     <string name="face_intro_content_third_point">Данните, използвани за разпознаване на лицето Ви, са поверителни и се съхраняват на телефона Ви</string>
-    <string name="face_intro_next">НАПРЕД</string>
     <string name="face_intro_remember">Запомнете:</string>
     <string name="face_intro_summary">Отключвайте телефона си, като погледнете към него.</string>
     <string name="face_intro_title">Относно отключването с лице</string>
-    <string name="face_value_prop_cancel">Не, благодаря</string>
-    <string name="face_value_prop_next">Настройване</string>
-    <string name="face_value_prop_summary">"Отключване с лице ви позволява лесно да влизате в телефона си, като просто го погледнете. Тъй като телефонът разпознава лицето ви, заключеният екран показва известия само когато гледате към него"</string>
     <string name="facelock_setup_notification_text">Настройване на лицево отключване</string>
     <string name="facelock_setup_notification_title">Отключване с поглед</string>
     <string name="face_camera_content">Подравнете лицето си</string>

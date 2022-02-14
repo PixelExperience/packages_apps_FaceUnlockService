@@ -5,17 +5,12 @@
     <string name="attr_light_high">Na twarz pada zbyt dużo światła</string>
     <string name="attr_light_shadow">Na twarzy widać zbyt dużo cieni</string>
     <string name="btn_done">Gotowe</string>
-    <string name="btn_try">SPRÓBUJ PONOWNIE</string>
     <string name="face_intro_conten_first_point">Funkcja wykrywania twarzy jest mniej bezpieczna niż wzór, PIN czy hasło</string>
     <string name="face_intro_content_second_point">Osoba podobna do Ciebie będzie w stanie odblokować telefon</string>
     <string name="face_intro_content_third_point">Dane służące do identyfikacji twarzy są poufne i zabezpieczone w telefonie</string>
-    <string name="face_intro_next">DALEJ</string>
     <string name="face_intro_remember">Zapamiętaj:</string>
     <string name="face_intro_summary">Odblokuj telefon, patrząc na niego.</string>
     <string name="face_intro_title">Informacje o rozpoznaniu twarzy</string>
-    <string name="face_value_prop_cancel">Nie, Dziękuje</string>
-    <string name="face_value_prop_next">Ustaw</string>
-    <string name="face_value_prop_summary">"Rozpoznawanie twarzy pozwala łatwo dostać się do telefonu, po prostu patrząc na niego. Ponieważ telefon rozpoznaje Twoją twarz, ekran blokady wyświetla powiadomienia tylko wtedy, gdy na niego patrzysz"</string>
     <string name="facelock_setup_notification_text">Konfiguracja blokady z rozpoznawaniem twarzy</string>
     <string name="facelock_setup_notification_title">Odblokowanie spojrzeniem</string>
     <string name="face_camera_content">Ustaw odpowiednio twarz</string>

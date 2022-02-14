@@ -5,11 +5,9 @@
     <string name="attr_light_high">မျက်နှာလင်းလွန်းနေသည်</string>
     <string name="attr_light_shadow">မျက်နှာတွင် အရိပ်များကျနေသည်</string>
     <string name="btn_done">ပြီးပါပြီ</string>
-    <string name="btn_try">ထပ်ကြိုးစားပါ</string>
     <string name="face_intro_conten_first_point">မျက်နှာတိုက်စစ်ခြင်းသည် ပုံစံ၊ ပင်ကုဒ်၊ စကားဝှက်များလောက် စိတ်မချရပါ</string>
     <string name="face_intro_content_second_point">သင်နှင့် ရုပ်တူသူက သင့်ဖုန်းကို သော့ဖွင့်နိုင်ပါမည်</string>
     <string name="face_intro_content_third_point">သင့်မျက်နှာကို မှတ်စေရန် သုံးသည့်ဒေတာများကို သင့်ဖုန်းတွင် သီးသန့်ထားရှိပါမည်</string>
-    <string name="face_intro_next">ရှေ့သို့</string>
     <string name="face_intro_remember">မှတ်ရန် −</string>
     <string name="face_intro_summary">၎င်းကိုကြည့်ရုံဖြင့် သင့်ဖုန်းကိုသော့ဖွင့်ပါ။</string>
     <string name="face_intro_title">မျက်နှာဖြင့် သော့ဖြည်မှု အကြောင်း</string>

@@ -5,17 +5,12 @@
     <string name="attr_light_high">Nägu on ülevalgustatud</string>
     <string name="attr_light_shadow">Näol on liiga palju varje</string>
     <string name="btn_done">Valmis</string>
-    <string name="btn_try">Proovi uuesti</string>
     <string name="face_intro_conten_first_point">Näotuvastus on vähem turvaline kui muster, PIN-kood või parool</string>
     <string name="face_intro_content_second_point">Väliselt sarnased inimesed võivad saada avada Teie telefoni</string>
     <string name="face_intro_content_third_point">Teie näo tuvastamiseks kasutatavaid andmeid hoitakse Teie telefonis</string>
-    <string name="face_intro_next">Edasi</string>
     <string name="face_intro_remember">Pidage meeles:</string>
     <string name="face_intro_summary">Avage oma telefon seda vaadates.</string>
     <string name="face_intro_title">Näotuvastusest</string>
-    <string name="face_value_prop_cancel">Ei, aitäh</string>
-    <string name="face_value_prop_next">Seadista</string>
-    <string name="face_value_prop_summary">"Näotuvastus võimaldab teil telefoni lihtsalt lukust avada, seda vaadates. Telefon tunneb teie nägu ja lukustuskuva märguanded ilmuvad ainult seda vaadates. "</string>
     <string name="facelock_setup_notification_text">Seadistage näotuvastus</string>
     <string name="facelock_setup_notification_title">Pilguga avamine</string>
     <string name="face_camera_content">Joondage oma nägu</string>

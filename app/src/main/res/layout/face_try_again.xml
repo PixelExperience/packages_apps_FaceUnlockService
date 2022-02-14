@@ -34,7 +34,7 @@
                 android:layout_below="@id/iv_top_icon"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/setup_header_margin_top"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@string/tv_header_font_family"
                 android:text="@string/face_try_content"
                 android:textColor="?android:textColorPrimary"
                 android:textSize="@dimen/setup_header_text_size" />
@@ -74,10 +74,10 @@
 
             <Button
                 android:id="@+id/face_try"
-                style="@style/SuwGlifButton.Primary"
+                style="@style/ButtonTextRound"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_try" />
+                android:text="@string/btn_try_again" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

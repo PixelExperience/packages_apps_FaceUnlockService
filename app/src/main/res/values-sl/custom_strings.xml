@@ -5,11 +5,9 @@
     <string name="attr_light_high">Obraz je preveč osvetljen</string>
     <string name="attr_light_shadow">Na obrazu je preveč senc</string>
     <string name="btn_done">Končano</string>
-    <string name="btn_try">POSKUSI ZNOVA</string>
     <string name="face_intro_conten_first_point">Prepoznavanje obraza je manj varno kot vzorec, PIN ali geslo</string>
     <string name="face_intro_content_second_point">Telefon bi lahko odklenil kdo, ki vam je podoben</string>
     <string name="face_intro_content_third_point">Podatki, uporabljeni za prepoznavanje obraza, se zadržijo v telefonu</string>
-    <string name="face_intro_next">NAPREJ</string>
     <string name="face_intro_remember">Pomnite:</string>
     <string name="face_intro_summary">Telefon odklenite tako, da ga pogledate.</string>
     <string name="face_intro_title">O odklepanju z obrazom</string>

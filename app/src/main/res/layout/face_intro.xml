@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -16,24 +17,28 @@
             android:paddingStart="@dimen/page_padding_left"
             android:paddingEnd="@dimen/page_padding_right">
 
-            <ImageView
-                android:id="@id/iv_top_icon"
-                android:layout_width="@dimen/setup_top_icon_size"
-                android:layout_height="@dimen/setup_top_icon_size"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/top_icon_margin_top"
-                android:src="@drawable/ic_face_auth"
-                android:tint="@color/theme_color" />
+            <FrameLayout
+                android:id="@+id/fl_anime"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/help_video_height">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/video"
+                    android:layout_width="@dimen/help_video_width"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true" />
+            </FrameLayout>
 
             <TextView
                 android:id="@id/tv_header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/iv_top_icon"
+                android:layout_below="@id/fl_anime"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/setup_header_margin_top"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@string/tv_header_font_family"
                 android:text="@string/face_intro_title"
                 android:textColor="?android:textColorPrimary"
                 android:textSize="@dimen/setup_header_text_size" />
@@ -163,10 +168,10 @@
 
         <Button
             android:id="@+id/info_next"
-            style="@style/SuwGlifButton.Primary"
+            style="@style/ButtonTextRound"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:text="@string/face_intro_next" />
+            android:text="@string/btn_next" />
     </RelativeLayout>
 </LinearLayout>

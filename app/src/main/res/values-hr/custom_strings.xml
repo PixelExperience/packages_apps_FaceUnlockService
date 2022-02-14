@@ -5,11 +5,9 @@
     <string name="attr_light_high">Lice je previše osvijetljeno</string>
     <string name="attr_light_shadow">Na licu je previše sjena</string>
     <string name="btn_done">Gotovo</string>
-    <string name="btn_try">POKUŠAJ PONOVO</string>
     <string name="face_intro_conten_first_point">Prepoznavanje lica manje je sigurno od uzorka, PIN-a ili lozinke</string>
     <string name="face_intro_content_second_point">Netko tko izgleda poput vas mogao bi otključati vaš telefon</string>
     <string name="face_intro_content_third_point">Podaci koji se upotrebljavaju za prepoznavanje lica sigurno su pohranjeni na telefonu</string>
-    <string name="face_intro_next">DALJE</string>
     <string name="face_intro_remember">Ne zaboravite:</string>
     <string name="face_intro_summary">Otključajte telefon gledanjem u njega.</string>
     <string name="face_intro_title">O otključavanju s pomoću lica</string>

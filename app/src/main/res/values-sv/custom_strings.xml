@@ -5,17 +5,12 @@
     <string name="attr_light_high">Det är för mycket ljus på ansiktet</string>
     <string name="attr_light_shadow">Ansiktet har för många skuggor</string>
     <string name="btn_done">Färdigt</string>
-    <string name="btn_try">FÖRSÖK IGEN</string>
     <string name="face_intro_conten_first_point">Ansiktsmatchning är inte lika säkert som grafiskt lösenord, PIN-kod eller lösenord</string>
     <string name="face_intro_content_second_point">Någon som liknar dig kan låsa upp telefonen</string>
     <string name="face_intro_content_third_point">De data som används för att identifiera ditt ansikte förvaras skyddat i telefonen</string>
-    <string name="face_intro_next">NÄSTA</string>
     <string name="face_intro_remember">Kom ihåg:</string>
     <string name="face_intro_summary">Lås upp telefonen genom att titta på den.</string>
     <string name="face_intro_title">Om ansiktsupplåsning</string>
-    <string name="face_value_prop_cancel">Nej, tack</string>
-    <string name="face_value_prop_next">Konfigurera</string>
-    <string name="face_value_prop_summary">"Med ansiktsupplåsning kan du enkelt låsa upp telefonen genom att bara titta på den. Eftersom telefonen känner igen ditt ansikte kommer låsskärmen enbart visa meddelanden när det är du som tittar på den"</string>
     <string name="facelock_setup_notification_text">Konfigurera ansiktsupplåsning</string>
     <string name="facelock_setup_notification_title">Lås upp med ett ögonkast</string>
     <string name="face_camera_content">Rikta in ansiktet</string>

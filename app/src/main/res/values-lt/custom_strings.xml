@@ -5,11 +5,9 @@
     <string name="attr_light_high">Per daug šviesos veidui</string>
     <string name="attr_light_shadow">Per daug šešėlio krenta ant veido</string>
     <string name="btn_done">Atlikta</string>
-    <string name="btn_try">Bandyti dar kartą</string>
     <string name="face_intro_conten_first_point">Veido atitikimas yra mažiau saugus nei ,grafinis raktas PIN kodas ar slaptažodis</string>
     <string name="face_intro_content_second_point">Kažkas panašus į jus gali atrakinti telefoną</string>
     <string name="face_intro_content_third_point">Duomenys, naudojami jūsų veidui atpažinti, jūsų telefone laikomi privačiais</string>
-    <string name="face_intro_next">Sekantis</string>
     <string name="face_intro_remember">Prisiminti:</string>
     <string name="face_intro_summary">Atrakinkite telefoną, žiūrėdami į jį.</string>
     <string name="face_intro_title">Apie veido atrakinimą</string>

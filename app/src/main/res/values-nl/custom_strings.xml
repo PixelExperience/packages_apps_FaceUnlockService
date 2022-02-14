@@ -5,17 +5,12 @@
     <string name="attr_light_high">Gezicht is te licht</string>
     <string name="attr_light_shadow">Gezicht heeft te veel schaduwen</string>
     <string name="btn_done">Gereed</string>
-    <string name="btn_try">OPNIEUW</string>
     <string name="face_intro_conten_first_point">Gezichtsvergelijking is minder veilig dan een patroon, pincode of wachtwoord</string>
     <string name="face_intro_content_second_point">Iemand die op jou lijkt, kan mogelijk ook je telefoon ontgrendelen</string>
     <string name="face_intro_content_third_point">De gegevens die worden gebruikt om je gezicht te herkennen, zijn privé en worden op je telefoon bewaard</string>
-    <string name="face_intro_next">VOLGENDE</string>
     <string name="face_intro_remember">Onthoud:</string>
     <string name="face_intro_summary">Ontgrendel je telefoon door ernaar te kijken.</string>
     <string name="face_intro_title">Over Ontgrendelen via gezichtsherkenning</string>
-    <string name="face_value_prop_cancel">Nee, bedankt</string>
-    <string name="face_value_prop_next">Instellen</string>
-    <string name="face_value_prop_summary">"Met Ontgrendelen via gezichtsherkenning kun je gemakkelijk je telefoon ontgrendelen gewoon door ernaar te kijken. Aangezien je telefoon je gezicht kent, toont het vergrendelde scherm alleen meldingen als je naar het scherm kijkt."</string>
     <string name="facelock_setup_notification_text">Ontgrendelen via gezichtsherkenning instellen</string>
     <string name="facelock_setup_notification_title">Ontgrendelen met één blik</string>
     <string name="face_camera_content">Breng je gezicht in beeld</string>

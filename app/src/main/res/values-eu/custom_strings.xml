@@ -4,11 +4,9 @@
     <string name="attr_light_dark">Aurpegiak argi gehiago behar du</string>
     <string name="attr_light_high">Aurpegiak argi gehiegi du</string>
     <string name="attr_light_shadow">Aurpegiak itzal gehiegi ditu</string>
-    <string name="btn_try">Saiatu berriro</string>
     <string name="face_intro_conten_first_point">Aurpegi kointzidentzia ez da eredu bat, PIN kode bat edo pasahitza bat bezain segurua</string>
     <string name="face_intro_content_second_point">Zure antzeko ikuskera daukan batek mugikorra desbkokea lezake</string>
     <string name="face_intro_content_third_point">Zure aurpegia aurkitzeko datuak era pribatuan daude gordeta zure mugikorrean</string>
-    <string name="face_intro_next">Hurrengoa</string>
     <string name="face_intro_remember">Gogoratu</string>
     <string name="face_intro_summary">Mugikorra desblokeatu hurari begiratuz</string>
     <string name="face_intro_title">Aurpegi desblokeoari buruz</string>

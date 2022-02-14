@@ -5,17 +5,12 @@
     <string name="attr_light_high">Gesicht ist überbelichtet</string>
     <string name="attr_light_shadow">Zu viele Schatten im Gesicht</string>
     <string name="btn_done">Fertig</string>
-    <string name="btn_try">ERNEUT VERSUCHEN</string>
     <string name="face_intro_conten_first_point">Die Gesichtserkennung ist nicht so sicher wie ein Muster, PIN oder Passwort</string>
     <string name="face_intro_content_second_point">Möglicherweise kann jemand der Ihnen ähnlich sieht ihr Gerät entsperren</string>
     <string name="face_intro_content_third_point">Ihre biometrischen Daten werden sicher und nur auf Ihrem Gerät gespeichert</string>
-    <string name="face_intro_next">WEITER</string>
     <string name="face_intro_remember">Bedenken Sie:</string>
     <string name="face_intro_summary">Entsperren Sie das Gerät per Gesichtserkennung</string>
     <string name="face_intro_title">Informationen zur Gesichtserkennung</string>
-    <string name="face_value_prop_cancel">Nein, danke</string>
-    <string name="face_value_prop_next">Einrichten</string>
-    <string name="face_value_prop_summary">"Mit der Gesichtsentsperrung können Sie Ihr Telefon ganz einfach entsperren, indem Sie es ansehen. Da Ihre Gesicht erkannt wird werden auf dem Sperrbildschirm nur dann Benachrichtigungsinhalte angezeigt, wenn Sie es ansehen."</string>
     <string name="facelock_setup_notification_text">Gesichtserkennung einrichten</string>
     <string name="facelock_setup_notification_title">Mit einem Blick entsperren</string>
     <string name="face_camera_content">Zentrieren Sie ihr Gesicht</string>

@@ -5,17 +5,12 @@
     <string name="attr_light_high">ಮುಖಕ್ಕೆ ಬೆಳಕು ಜಾಸ್ತಿಯಾಗಿದೆ</string>
     <string name="attr_light_shadow">ಮುಖದ ತುಂಬಾ ನೆರಳು ಇದೆ</string>
     <string name="btn_done">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
-    <string name="btn_try">ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
     <string name="face_intro_conten_first_point">ಮುಖ ಗುರುತು ಪ್ಯಾಟರ್ನ್, ಪಿನ್, ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಗಳಿಗಿಂತ ಕಡಿಮೆ ಸುರಕ್ಷಿತವಾಗಿದೆ</string>
     <string name="face_intro_content_second_point">ನಿಮ್ಮಂತೆ ಮುಖ ಗುರುತು ಸಾಮ್ಯತೆ ಹೊಂದಿರುವವರು ನಿಮ್ಮ ಫೋನ್ ಅನ್ಲಾಕ್ ಮಾಡಬಹುದು</string>
     <string name="face_intro_content_third_point">ನಿಮ್ಮ ಮುಖಗುರುತು ದತ್ತಾಂಶವನ್ನು ನಿಮ್ಮ ಫೋನನಲ್ಲಿ ಖಾಸಗಿಯಾಗಿ ಇರಿಸಲಾಗುವುದು</string>
-    <string name="face_intro_next">ಮುಂದೆ</string>
     <string name="face_intro_remember">ನೆನಪಿಡು</string>
     <string name="face_intro_summary">ಅನ್ಲಾಕ್ ಮಾಡಲು ಪೋನ್ ಅನ್ನು ನೋಡಿ</string>
     <string name="face_intro_title">ಮುಖ ಪರದೆ ಅನ್ಲಾಕ್ ಬಗ್ಗೆ</string>
-    <string name="face_value_prop_cancel">ಬೇಡ,  ಧನ್ಯವಾದಗಳು</string>
-    <string name="face_value_prop_next">ಸಂಯೋಜನೆ</string>
-    <string name="face_value_prop_summary">"ಮುಖ ಗುರುತು ಸುಲಭವಾಗಿ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ನೋಡಿದಾಗ ಅನ್ಲಾಕ್ ಮಾಡಲು ಸಹಕಾರಿಯಾಗಿದೆ. ನಿಮ್ಮ ಫೋನ್ ಗೆ ನಿಮ್ಮ ಮುಖದ ಪರಿಚಯವಿರುವ ಕಾರಣ, ಲಾಕ್ ಪರದೆ ಕೇವಲ ನೀವು ಫೊನ್ ಅನ್ನು ನೋಡುತ್ತಿರುವಾಗ ಅಧಿಸೂಚನೆಗಳನ್ನು ತೋರಿಸುತ್ತದೆ."</string>
     <string name="facelock_setup_notification_text">ಮುಖ ಗುರುತು ಸಂಯೋಜಿಸಿ</string>
     <string name="facelock_setup_notification_title">ದೃಷ್ಟಿಸಿ ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
     <string name="face_camera_content">ಮುಖವನ್ನು ಹೊಂದಿಸಿ</string>

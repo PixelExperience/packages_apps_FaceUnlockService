@@ -5,17 +5,12 @@
     <string name="attr_light_high">Обличчя надто сильно освітлене</string>
     <string name="attr_light_shadow">Обличчя надто затінене</string>
     <string name="btn_done">Готово</string>
-    <string name="btn_try">Повторіть спробу</string>
     <string name="face_intro_conten_first_point">Розпізнавання обличчя є менш надійним, ніж графічний ключ, PIN-код чи пароль</string>
     <string name="face_intro_content_second_point">Будь-хто, схожий на вас, зможе розблокувати ваш телефон</string>
     <string name="face_intro_content_third_point">Дані, які використовуються для розпізнавання вашого обличчя, зберігаються у вашому телефоні на умовах конфіденційності</string>
-    <string name="face_intro_next">ДАЛІ</string>
     <string name="face_intro_remember">Пам\'ятайте:</string>
     <string name="face_intro_summary">Розблоковуйте телефон одним поглядом.</string>
     <string name="face_intro_title">Про Фейсконтроль</string>
-    <string name="face_value_prop_cancel">Ні, дякую</string>
-    <string name="face_value_prop_next">Налашт.</string>
-    <string name="face_value_prop_summary">"Завдяки функції \"Фейсконтроль\" ви можете легко розблокувати телефон, просто глянувши на нього. Оскільки телефон пам'ятає ваше обличчя, сповіщення на екрані блокування відображаються лише тоді, коли ви дивитеся на екран"</string>
     <string name="facelock_setup_notification_text">Налаштувати функцію \"Фейсконтроль\"</string>
     <string name="facelock_setup_notification_title">Розблокування поглядом</string>
     <string name="face_camera_content">Вирівняйте положення обличчя</string>

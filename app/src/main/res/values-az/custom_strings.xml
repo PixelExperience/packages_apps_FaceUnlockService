@@ -5,17 +5,12 @@
     <string name="attr_light_high">Üzdə həddən çox işıq var</string>
     <string name="attr_light_shadow">Üzdə həddən çox kölgə var</string>
     <string name="btn_done">Hazırdır</string>
-    <string name="btn_try">YENİDƏN SINAYIN</string>
     <string name="face_intro_conten_first_point">Üz uyğunluğu naxış, PIN və ya şifrədən daha az təhlükəsizdir</string>
     <string name="face_intro_content_second_point">Sizə bənzəyən biri telefonunuzun kilidini aça bilər</string>
     <string name="face_intro_content_third_point">Üz tanıma üçün istifadə edilən verilərlər telefonunuzda gizli olaraq saxlanılır</string>
-    <string name="face_intro_next">NÖVBƏTİ</string>
     <string name="face_intro_remember">Unutmayın:</string>
     <string name="face_intro_summary">Telefonunuza baxaraq kilidi açın.</string>
     <string name="face_intro_title">Üz tanıma kilidi haqqında</string>
-    <string name="face_value_prop_cancel">Xeyr, Təşəkkürlər</string>
-    <string name="face_value_prop_next">Quraşdır</string>
-    <string name="face_value_prop_summary">"Üz tanıma kilidi, sizə sadəcə telefona baxaraq ona rahatca müraciət etmə imkanı verir. Telefon üzünüzü tanıdığı üçün kilid ekranı yalnız siz telefona baxanda bildirişləri göstərir."</string>
     <string name="facelock_setup_notification_text">Üz tanıma kilidini quraşdır</string>
     <string name="facelock_setup_notification_title">Bir baxışla kilidi aç</string>
     <string name="face_camera_content">Üzünüzü yerləşdirin</string>

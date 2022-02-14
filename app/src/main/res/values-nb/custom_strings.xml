@@ -5,17 +5,12 @@
     <string name="attr_light_high">For mye lys på ansiktet</string>
     <string name="attr_light_shadow">Ansiktet har for mange skygger</string>
     <string name="btn_done">Ferdig</string>
-    <string name="btn_try">PRØV PÅ NYTT</string>
     <string name="face_intro_conten_first_point">Ansiktsmatching er mindre sikkert enn et mønster, en PIN-kode eller et passord</string>
     <string name="face_intro_content_second_point">Noen som likner på deg, kan låse opp telefonen din</string>
     <string name="face_intro_content_third_point">Dataene som brukes til å gjenkjenne ansiktet ditt, holdes privat på telefonen din</string>
-    <string name="face_intro_next">NESTE</string>
     <string name="face_intro_remember">Husk:</string>
     <string name="face_intro_summary">Lås opp telefonen ved å se på den.</string>
     <string name="face_intro_title">Om ansiktslås</string>
-    <string name="face_value_prop_cancel">Nei takk</string>
-    <string name="face_value_prop_next">Konfigurer</string>
-    <string name="face_value_prop_summary">"Med ansiktslås får du tilgang til telefonen din ved å kun se på den. Fordi telefonen din kjenner igjen ansiktet ditt, vil varsler vises på låseskjermen kun når du ser på den"</string>
     <string name="facelock_setup_notification_text">Konfigurer ansiktslås</string>
     <string name="facelock_setup_notification_title">Lås opp med bare et blikk</string>
     <string name="face_camera_content">Juster ansiktet ditt</string>

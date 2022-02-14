@@ -5,17 +5,12 @@
     <string name="attr_light_high">මුහුණට බොහෝ ආලෝකය තිබේ</string>
     <string name="attr_light_shadow">මුහුණට බොහෝ සෙවණැලි ඇත</string>
     <string name="btn_done">නිමයි</string>
-    <string name="btn_try">නැවත උත්සාහ කරන්න</string>
     <string name="face_intro_conten_first_point">මුහුණ ගැළපීම රටාවකට, PIN අංකයකට, මුරපදයකට වඩා අඩුවෙන් සුරක්ෂිතයි</string>
     <string name="face_intro_content_second_point">ඔබ වගේ පෙනෙන කෙනෙකුට ඔබේ දුරකථනය අගුළු හැරීමට හැකිය</string>
     <string name="face_intro_content_third_point">ඔබේ මුහුණ හඳුනා ගැනීමට භාවිතා කරන දත්ත ඔබේ දුරකථනයේ පෞද්ගලිකව තබයි</string>
-    <string name="face_intro_next">ඊළඟ</string>
     <string name="face_intro_remember">මතක තබා ගන්න:</string>
     <string name="face_intro_summary">ඔබේ දුරකථනය දෙස බලමින් එය අගුළු හරින්න.</string>
     <string name="face_intro_title">මුහුණෙන් අගුළු හැරීම ගැන</string>
-    <string name="face_value_prop_cancel">එපා, ස්තූතියි</string>
-    <string name="face_value_prop_next">පිහිටුවන්න</string>
-    <string name="face_value_prop_summary">"මුහුණෙන් අගුළු හැරීම ඔබට දුරකථනය දෙස බලා සිටීමෙන් එයට පහසුවෙන් ඇතුළු වීමට ඉඩ සලසයි. ඔබේ දුරකථනය ඔබේ මුහුණ දන්නා බැවින්, ඔබ එය දෙස බලන විට පමණක් අගුළු තිරය මත දැනුම්දීම් පෙන්වයි"</string>
     <string name="facelock_setup_notification_text">මුහුණෙන් අගුළු හැරීම පිහිටුවන්න</string>
     <string name="facelock_setup_notification_title">එක් බැල්මකින් අගුළු හරින්න</string>
     <string name="face_camera_content">ඔබේ මුහුණ පෙළගස්වන්න</string>

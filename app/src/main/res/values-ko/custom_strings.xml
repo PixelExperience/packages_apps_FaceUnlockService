@@ -5,17 +5,12 @@
     <string name="attr_light_high">얼굴에 조명이 너무 밝습니다</string>
     <string name="attr_light_shadow">얼굴에 그림자가 너무 많습니다</string>
     <string name="btn_done">완료</string>
-    <string name="btn_try">다시 시도</string>
     <string name="face_intro_conten_first_point">얼굴인식은 패턴, PIN 또는 비밀번호보다 안전하지 않습니다</string>
     <string name="face_intro_content_second_point">외모가 비슷한 사람이 휴대전화를 잠금 해제할 수도 있습니다</string>
     <string name="face_intro_content_third_point">얼굴을 인식하는 데 사용되는 데이터는 휴대전화에 비공개로 저장됩니다</string>
-    <string name="face_intro_next">다음</string>
     <string name="face_intro_remember">중요:</string>
     <string name="face_intro_summary">휴대전화를 바라보는 것으로 잠금 해제하십시오.</string>
     <string name="face_intro_title">얼굴 인식 잠금해제 정보</string>
-    <string name="face_value_prop_cancel">괜찮습니다</string>
-    <string name="face_value_prop_next">설정</string>
-    <string name="face_value_prop_summary">"얼굴 인식 잠금해제로 휴대전화를 바라보기만 하면 쉽게 액세스할 수 있습니다. 휴대전화에 얼굴이 등록되어 있으므로 잠금 화면을 볼 때에만 알림이 표시됩니다."</string>
     <string name="facelock_setup_notification_text">얼굴 인식 잠금해제 설정</string>
     <string name="facelock_setup_notification_title">흘낏 봐서 잠금해제</string>
     <string name="face_camera_content">얼굴을 맞추세요</string>

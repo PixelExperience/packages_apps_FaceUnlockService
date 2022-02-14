@@ -5,11 +5,9 @@
     <string name="attr_light_high">چہرہ پر بہت زیادہ روشنی ہے</string>
     <string name="attr_light_shadow">چہرہ میں بہت سی پرچھائیاں آرہی ہیں</string>
     <string name="btn_done">ہوگیا</string>
-    <string name="btn_try">دوبارہ کوشش کریں</string>
     <string name="face_intro_conten_first_point">چہرہ مشابہ نمونہ، پن، یا پاس ورڈ کے مقابلے کم محفوظ ہے</string>
     <string name="face_intro_content_second_point">آپ کی طرح دکھنے والا شخص آپ کا فون ان لاک کرسکتا ہے</string>
     <string name="face_intro_content_third_point">جو ڈیٹا آپ کے چہرہ کی شناخت کے لیے استعمال کیا گیا اسے آپ کے فون میں نجی رکھا جاتا ہے</string>
-    <string name="face_intro_next">اگلا</string>
     <string name="face_intro_remember">یاد رہے کہ:</string>
     <string name="face_intro_summary">اس میں دیکھ کر اپنا فون ان لاک کریں۔</string>
     <string name="face_intro_title">چہرہ ان لاک کے متعلق</string>

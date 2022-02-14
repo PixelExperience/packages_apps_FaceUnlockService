@@ -5,17 +5,12 @@
     <string name="attr_light_high">Khuôn mặt có quá nhiều ánh sáng</string>
     <string name="attr_light_shadow">Khuôn mặt có quá nhiều chỗ tối</string>
     <string name="btn_done">Xong</string>
-    <string name="btn_try">HÃY THỬ LẠI</string>
     <string name="face_intro_conten_first_point">Khớp khuôn mặt ít bảo mật hơn mẫu hình, mã PIN hoặc mật khẩu</string>
     <string name="face_intro_content_second_point">Ai đó trông giống bạn có thể mở khóa điện thoại của bạn</string>
     <string name="face_intro_content_third_point">Dữ liệu được dùng để nhận dạng khuôn mặt của bạn được bảo mật trên điện thoại của bạn</string>
-    <string name="face_intro_next">TIẾP THEO</string>
     <string name="face_intro_remember">Hãy nhớ:</string>
     <string name="face_intro_summary">Mở khóa điện thoại của bạn bằng cách nhìn vào điện thoại.</string>
     <string name="face_intro_title">Giới thiệu về mở khóa bằng khuôn mặt</string>
-    <string name="face_value_prop_cancel">Không, Cảm ơn</string>
-    <string name="face_value_prop_next">Thiết lập</string>
-    <string name="face_value_prop_summary">"Mở khóa bằng khuôn mặt cho phép bạn dễ dàng truy cập vào điện thoại của mình chỉ bằng cách nhìn vào nó. Vì điện thoại biết khuôn mặt của bạn nên màn hình khóa chỉ hiển thị thông báo khi bạn đang nhìn vào đó"</string>
     <string name="facelock_setup_notification_text">Thiết lập mở khóa bằng khuôn mặt</string>
     <string name="facelock_setup_notification_title">Liếc nhanh để mở khóa</string>
     <string name="face_camera_content">Căn chỉnh khuôn mặt của bạn</string>

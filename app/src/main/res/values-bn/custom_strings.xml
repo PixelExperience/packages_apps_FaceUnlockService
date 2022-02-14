@@ -5,17 +5,12 @@
     <string name="attr_light_high">মুখে অনেক বেশি আলো রয়েছে</string>
     <string name="attr_light_shadow">মুখে অনেক ছায়া পড়েছে</string>
     <string name="btn_done">সম্পন্ন হয়েছে</string>
-    <string name="btn_try">আবার চেষ্টা করুন</string>
     <string name="face_intro_conten_first_point">কোনো প্যাটার্ন, PIN বা পাসওয়ার্ডের চেয়ে মুখ মেলানো কম নিরাপদ</string>
     <string name="face_intro_content_second_point">আপনার মতো দেখতে কেউ আপনার ফোন আনলক করতে পারে</string>
     <string name="face_intro_content_third_point">আপনার মুখ শনাক্ত করার ডেটা আপনার ফোনে ব্যক্তিগত করে রাখা হয়েছে</string>
-    <string name="face_intro_next">পরবর্তী</string>
     <string name="face_intro_remember">মনে রাখুন:</string>
     <string name="face_intro_summary">আপনার ফোনের দিকে তাকিয়ে এটি আনলক করুন।</string>
     <string name="face_intro_title">মুখ আনলক সম্বন্ধে</string>
-    <string name="face_value_prop_cancel">না ধন্যবাদ</string>
-    <string name="face_value_prop_next">সেট আপ করুন</string>
-    <string name="face_value_prop_summary">"ফেস আনলক আপনাকে আপনার ফোনের দিকে তাকিয়ে সহজেই ফোনের ভিতরে প্রবেশ করতে দেয়। যেহেতু ফোনটি আপনার মুখটি জানে, তাই শুধুমাত্র আপনিই যখন লক স্ক্রিনটির দিকে তাকাবেন তখনই বিজ্ঞপ্তিগুলো দেখা যাবে"</string>
     <string name="facelock_setup_notification_text">মুখ আনলক সেট আপ করুন</string>
     <string name="facelock_setup_notification_title">এক ঝলকে আনলক করুন</string>
     <string name="face_camera_content">আপনার মুখ সঠিক স্থানে রাখুন</string>

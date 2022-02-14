@@ -51,12 +51,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/SettingsTheme" />
         <activity
-            android:name="org.pixelexperience.faceunlock.FaceValuePropActivity"
-            android:excludeFromRecents="true"
-            android:launchMode="standard"
-            android:screenOrientation="portrait"
-            android:theme="@style/SettingsTheme" />
-        <activity
             android:name="org.pixelexperience.faceunlock.FaceUpgradeFinish"
             android:excludeFromRecents="true"
             android:launchMode="standard"

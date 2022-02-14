@@ -5,17 +5,12 @@
     <string name="attr_light_high">Yüze çok fazla ışık vuruyor</string>
     <string name="attr_light_shadow">Yüze çok fazla gölge düşüyor</string>
     <string name="btn_done">Bitti</string>
-    <string name="btn_try">TEKRAR DENEYİN</string>
     <string name="face_intro_conten_first_point">Yüz eşleştirme; desen, PIN veya şifre yöntemleri kadar güvenli değildir</string>
     <string name="face_intro_content_second_point">Size benzeyen biri telefonunuzun kilidini açabilir</string>
     <string name="face_intro_content_third_point">Yüzünüzün tanınması için kullanılan veriler telefonunuzda gizli tutulur</string>
-    <string name="face_intro_next">İLERİ</string>
     <string name="face_intro_remember">Unutmayın:</string>
     <string name="face_intro_summary">Telefonunuza bakarak telefon kilidini açın.</string>
     <string name="face_intro_title">Yüz tanıma kilidi hakkında</string>
-    <string name="face_value_prop_cancel">Hayır, Teşekkürler</string>
-    <string name="face_value_prop_next">Kurulum</string>
-    <string name="face_value_prop_summary">"Yüz tanıma kilidi, telefona kolayca bakmanızı sağlar. Telefon yüzünüzü tanıdığından, kilit ekranı yalnızca telefona baktığınızda bildirimleri gösterir."</string>
     <string name="facelock_setup_notification_text">Yüz tanıma kilidini ayarlayın</string>
     <string name="facelock_setup_notification_title">Tek bakışla kilit açın</string>
     <string name="face_camera_content">Yüzünüzü yerleşdirin</string>

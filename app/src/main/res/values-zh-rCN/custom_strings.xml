@@ -5,17 +5,12 @@
     <string name="attr_light_high">面部光线太强</string>
     <string name="attr_light_shadow">面部阴影过多</string>
     <string name="btn_done">完成</string>
-    <string name="btn_try">请重试</string>
     <string name="face_intro_conten_first_point">相比图案、PIN 码或密码解锁，人脸识别安全性较弱</string>
     <string name="face_intro_content_second_point">长相与您十分相似的人可能也能解锁您的手机。</string>
     <string name="face_intro_content_third_point">手机中用来识别您面部的数据是保密的</string>
-    <string name="face_intro_next">下一步</string>
     <string name="face_intro_remember">注意：</string>
     <string name="face_intro_summary">看一眼手机进行解锁。</string>
     <string name="face_intro_title">关于人脸解锁</string>
-    <string name="face_value_prop_cancel">不用了，谢谢</string>
-    <string name="face_value_prop_next">设置</string>
-    <string name="face_value_prop_summary">"人脸解锁使您只需看着手机即可轻松解锁。由于您的手机能够识别您的面部，因此锁定屏幕只在您看着手机时显示通知"</string>
     <string name="facelock_setup_notification_text">设置人脸解锁</string>
     <string name="facelock_setup_notification_title">看一眼手机进行解锁</string>
     <string name="face_camera_content">请将你的面部正对手机</string>

@@ -5,18 +5,15 @@
     <string name="attr_light_high">Face has too much light</string>
     <string name="attr_light_shadow">Face has too many shadows</string>
     <string name="btn_done">Done</string>
-    <string name="btn_try">TRY AGAIN</string>
+    <string name="btn_try_again">Try again</string>
+    <string name="btn_next">Next</string>
     <string name="face_intro_conten_first_point">Face matching is less secure than a pattern, PIN, or password</string>
     <string name="face_intro_content_second_point">Someone who looks like you could unlock your phone</string>
     <string name="face_intro_content_third_point">The data used to recognize your face is kept private on your phone</string>
-    <string name="face_intro_next">NEXT</string>
     <string name="face_intro_remember">Remember:</string>
     <string name="face_intro_skip" translatable="false">@android:string/cancel</string>
     <string name="face_intro_summary">Unlock your phone by looking at it.</string>
     <string name="face_intro_title">About face unlock</string>
-    <string name="face_value_prop_cancel">No, Thanks</string>
-    <string name="face_value_prop_next">Set Up</string>
-    <string name="face_value_prop_summary">"Face unlock lets you easily get into your phone by just looking at it. Since your phone knows your face, the lock screen shows notifications only when you're looking at it"</string>
     <string name="facelock_setup_notification_text">Set up face unlock</string>
     <string name="facelock_setup_notification_title">Unlock with a glance</string>
     <string name="face_camera_content">Align your face</string>

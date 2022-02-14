@@ -5,17 +5,12 @@
     <string name="attr_light_high">Wajah mendapat terlalu banyak cahaya</string>
     <string name="attr_light_shadow">Bayangan pada wajah terlalu banyak</string>
     <string name="btn_done">Selesai</string>
-    <string name="btn_try">COBA LAGI</string>
     <string name="face_intro_conten_first_point">Pola, PIN, atau sandi lebih aman dari pencocokkan wajah</string>
     <string name="face_intro_content_second_point">Seseorang yang mirip dengan Anda dapat membuka kunci ponsel</string>
     <string name="face_intro_content_third_point">Data yang digunakan untuk mengenali wajah Anda akan tetap menjadi data pribadi di ponsel</string>
-    <string name="face_intro_next">SELANJUTNYA</string>
     <string name="face_intro_remember">Ingat:</string>
     <string name="face_intro_summary">Buka kunci ponsel dengan melihat ke layar.</string>
     <string name="face_intro_title">Tentang buka kunci dengan pengenalan wajah</string>
-    <string name="face_value_prop_cancel">Tidak, terima kasih</string>
-    <string name="face_value_prop_next">Mempersiapkan</string>
-    <string name="face_value_prop_summary">"Buka kunci wajah memudahkan Anda mengakses telepon hanya dengan memandangnya. Karena ponsel Anda mengenali wajah Anda, layar kunci menampilkan notifikasi hanya saat Anda memandangnya"</string>
     <string name="facelock_setup_notification_text">Setel buka kunci wajah</string>
     <string name="facelock_setup_notification_title">Buka kunci hanya dengan melihat</string>
     <string name="face_camera_content">Sejajarkan wajah Anda</string>

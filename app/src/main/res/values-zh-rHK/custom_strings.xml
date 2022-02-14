@@ -5,17 +5,12 @@
     <string name="attr_light_high">臉部燈光過亮</string>
     <string name="attr_light_shadow">臉部陰影過多</string>
     <string name="btn_done">完成</string>
-    <string name="btn_try">再試一次</string>
     <string name="face_intro_conten_first_point">相較於圖案、PIN 或密碼，臉部辨識的安全性較低</string>
     <string name="face_intro_content_second_point">與您相貌相似的人可能可以解鎖您的手機</string>
     <string name="face_intro_content_third_point">用於辨識您臉部的資料會私密地儲存在您的手機上</string>
-    <string name="face_intro_next">下一步</string>
     <string name="face_intro_remember">記住：</string>
     <string name="face_intro_summary">直視手機即可解鎖。</string>
     <string name="face_intro_title">關於臉部辨識解鎖</string>
-    <string name="face_value_prop_cancel">不用了，謝謝</string>
-    <string name="face_value_prop_next">設定</string>
-    <string name="face_value_prop_summary">"「臉部辨識解鎖」讓您只需要看著手機就能輕鬆解鎖使用。由於手機能認得您的臉，因此鎖定螢幕只有在您看著手機時才會顯示通知"</string>
     <string name="facelock_setup_notification_text">設定臉部辨識解鎖</string>
     <string name="facelock_setup_notification_title">看一眼解鎖</string>
     <string name="face_camera_content">臉部對正</string>

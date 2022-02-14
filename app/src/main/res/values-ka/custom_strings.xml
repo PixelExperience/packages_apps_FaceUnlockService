@@ -5,17 +5,12 @@
     <string name="attr_light_high">სახეს აქვს ზედმეტად ბევრი შუქი</string>
     <string name="attr_light_shadow">სახეს აქვს ზედმეტად ბევრი ჩრდილები</string>
     <string name="btn_done">დასრულდა</string>
-    <string name="btn_try">სცადეთ თავიდან</string>
     <string name="face_intro_conten_first_point">სახით განბლოკვა არის ნაკლებად დაცული ვიდრე ნიმუში, პინი, ან პაროლი</string>
     <string name="face_intro_content_second_point">ვინმემ ვინც გგავთ თქვენ შესაძლოა მოხსნას თქვენი ტელეფონის ბლოკი</string>
     <string name="face_intro_content_third_point">ინფორმაცია რომელიც გამოყენებული იქნა თქვენი სახის ამოსაცნობად რჩება დაცული თქვენს ტელეფონში</string>
-    <string name="face_intro_next">შემდეგი</string>
     <string name="face_intro_remember">გახსოვდეთ:</string>
     <string name="face_intro_summary">მოხსენით ტელეფონზე ბლოკი ყურებით</string>
     <string name="face_intro_title">სახით განბლოკვის შესახებ</string>
-    <string name="face_value_prop_cancel">არა, გმადლობთ</string>
-    <string name="face_value_prop_next">დაყენება</string>
-    <string name="face_value_prop_summary">"სახით განბლოკვა გაძლევთ საშუალებას მოხსნათ ადვილად ბლოკვი მხოლოდ მასზე შეხედვით. ვინაიდან თქვენი ტელეფონი სცნობს თქვენს სახეს, ბლოკირების ეკრანი აჩვენებს შეტყობინებებს მხოლოდ მაშინ როდესაც თქვენ უყურებთ მას"</string>
     <string name="facelock_setup_notification_text">სახით განბლოკვის დაყენება</string>
     <string name="facelock_setup_notification_title">ერთი შეხედვით განვლოკვა</string>
     <string name="face_camera_content">მიმართეთ თქვენი სახე</string>

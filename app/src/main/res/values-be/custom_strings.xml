@@ -5,17 +5,12 @@
     <string name="attr_light_high">На твары шмат святла</string>
     <string name="attr_light_shadow">На твары шмат ценяў</string>
     <string name="btn_done">Гатова</string>
-    <string name="btn_try">Паспрабаваць яшчэ раз</string>
     <string name="face_intro_conten_first_point">Супастаўленне твараў менш бяспечнае, чым шаблон, PIN-код або пароль</string>
     <string name="face_intro_content_second_point">Хтосьці, падобны на вас, можа разблакіраваць тэлефон</string>
     <string name="face_intro_content_third_point">Даныя, якія выкарыстоўваюцца для распазнання вашага твару, захоўваюцца ў прыватнасці на вашым тэлефоне</string>
-    <string name="face_intro_next">ДАЛЕЙ</string>
     <string name="face_intro_remember">Звярніце ўвагу:</string>
     <string name="face_intro_summary">Разблакіруйце тэлефон, адным позіркам.</string>
     <string name="face_intro_title">Пра разблакоўку тварам</string>
-    <string name="face_value_prop_cancel">Не, дзякуй</string>
-    <string name="face_value_prop_next">Наладзіць</string>
-    <string name="face_value_prop_summary">"Разблакіроўка па твару дазваляе з лёгкасцю разблакіраваць тэлефон, проста зірнуўшы на яго. Паколькі тэлефон распазнае ваш твар, на экране блакіроўкі апавяшчэнні будуць адлюстроўвацца толькі тады, калі вы глядзіце на яго"</string>
     <string name="facelock_setup_notification_text">Наладзьце разблакоўку тварам</string>
     <string name="facelock_setup_notification_title">Разблакіруйце адным позіркам</string>
     <string name="face_camera_content">Выраўняйце твар</string>

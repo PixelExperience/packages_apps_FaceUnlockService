@@ -5,17 +5,12 @@
     <string name="attr_light_high">顔に照明があたり過ぎています</string>
     <string name="attr_light_shadow">顔に影がかかっています</string>
     <string name="btn_done">完了</string>
-    <string name="btn_try">もう一度試す</string>
     <string name="face_intro_conten_first_point">顔認証は、パターン、PINまたはパスワードよりも安全ではありません</string>
     <string name="face_intro_content_second_point">よく似ている人が電話をロック解除できてしまう可能性があります</string>
     <string name="face_intro_content_third_point">顔の認識に使用したデータは電話で非公開にされます</string>
-    <string name="face_intro_next">次へ</string>
     <string name="face_intro_remember">要注意:</string>
     <string name="face_intro_summary">目で見て電話をロック解除する</string>
     <string name="face_intro_title">「顔認証でロック解除」について</string>
-    <string name="face_value_prop_cancel">いいえ</string>
-    <string name="face_value_prop_next">セットアップ</string>
-    <string name="face_value_prop_summary">"顔認証でロック解除すると、一目見るだけで電話に簡単にアクセスできます。電話はあなたの顔を認識しているので、ロック画面に通知が表示されるのはあなたが見ている時だけです。"</string>
     <string name="facelock_setup_notification_text">顔認証でロック解除の設定</string>
     <string name="facelock_setup_notification_title">ひと目見てロック解除</string>
     <string name="face_camera_content">顔を正しい位置に合わせる</string>

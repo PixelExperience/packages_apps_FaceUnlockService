@@ -5,11 +5,9 @@
     <string name="attr_light_high">चेहऱ्यावर खूपच प्रकाश आहे</string>
     <string name="attr_light_shadow">चेहऱ्यावर खूपच सावली आहे</string>
     <string name="btn_done">पूर्ण झाले</string>
-    <string name="btn_try">पुन्हा प्रयत्न करा</string>
     <string name="face_intro_conten_first_point">चेहरा जुळणी ही पॅटर्न, PIN किंवा पासवर्डपेक्षा कमी सुरक्षित आहे</string>
     <string name="face_intro_content_second_point">आपल्यासारखे दिसणारे कोणीतरी आपला फोन उघडू शकते</string>
     <string name="face_intro_content_third_point">आपला चेहरा ओळखण्यासाठी वापरण्यात येणारा डेटा आपल्या फोनवर खाजगी ठेवला जातो</string>
-    <string name="face_intro_next">पुढील</string>
     <string name="face_intro_remember">लक्षात ठेवा:</string>
     <string name="face_intro_summary">आपल्या फोनकडे पाहून तो अनलॉक करा</string>
     <string name="face_intro_title">चेहरा अनलॉक विषयी</string>

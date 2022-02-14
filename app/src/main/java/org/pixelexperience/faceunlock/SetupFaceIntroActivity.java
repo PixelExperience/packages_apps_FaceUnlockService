@@ -12,12 +12,15 @@ import android.widget.Button;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 import org.pixelexperience.faceunlock.util.NotificationUtils;
 import org.pixelexperience.faceunlock.util.Util;
 
 public class SetupFaceIntroActivity extends FaceBaseActivity {
     public static final String EXTRA_ENROLL_SUCCESS = "extra_enroll_success";
     private static final String TAG = SetupFaceIntroActivity.class.getSimpleName();
+    private LottieAnimationView mVideo;
 
     public static boolean hasAllPermissionsGranted(int[] iArr) {
         for (int i : iArr) {
@@ -36,9 +39,8 @@ public class SetupFaceIntroActivity extends FaceBaseActivity {
         if (faceManager.hasEnrolledTemplates()) {
             Log.e(TAG, "Has enrolled face! return!");
             showFinishActivity();
-        } else if (bundle != null || !startValueProp()) {
-            preInit();
         }
+        preInit();
     }
 
     private void showFinishActivity() {
@@ -65,6 +67,8 @@ public class SetupFaceIntroActivity extends FaceBaseActivity {
         if (!z) {
             showPolicydDialog();
         }
+        mVideo = (LottieAnimationView) findViewById(R.id.video);
+        mVideo.setAnimation(Util.isNightModeEnabled(this) ? R.raw.video_value_prop_dark : R.raw.video_value_prop);
         Button buttonNext = findViewById(R.id.info_next);
         buttonNext.setOnClickListener(view -> {
             Intent intent = new Intent(SetupFaceIntroActivity.this, FaceEnrollActivity.class);
@@ -104,17 +108,8 @@ public class SetupFaceIntroActivity extends FaceBaseActivity {
             if (i2 == 0) {
                 setResult(0, null);
                 finish();
-            } else if (i2 == -1) {
-                preInit();
             }
         }
-    }
-
-    private boolean startValueProp() {
-        Intent intent = new Intent(this, FaceValuePropActivity.class);
-        parseIntent(intent);
-        startActivityForResult(intent, 3);
-        return true;
     }
 
     private void showPermissionRequiredDialog() {
@@ -152,5 +147,17 @@ public class SetupFaceIntroActivity extends FaceBaseActivity {
         } else {
             finish();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mVideo.playAnimation();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mVideo.cancelAnimation();
     }
 }

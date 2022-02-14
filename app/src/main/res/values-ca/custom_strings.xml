@@ -5,17 +5,12 @@
     <string name="attr_light_high">Hi ha massa llum a la cara</string>
     <string name="attr_light_shadow">Hi ha massa ombres a la cara</string>
     <string name="btn_done">Fet</string>
-    <string name="btn_try">TORNA-HO A PROVAR</string>
     <string name="face_intro_conten_first_point">La coincidència facial és menys segura que un patró, un PIN o una contrasenya</string>
     <string name="face_intro_content_second_point">Una persona que se t\'assembli podria desbloquejar el telèfon</string>
     <string name="face_intro_content_third_point">Les dades que s\'utilitzen per identificar la cara s\'emmagatzemen com informació privada al telèfon</string>
-    <string name="face_intro_next">SEGÜENT</string>
     <string name="face_intro_remember">Recorda:</string>
     <string name="face_intro_summary">Desbloquegeu el telèfon amb la mirada.</string>
     <string name="face_intro_title">Quant al desbloqueig facial</string>
-    <string name="face_value_prop_cancel">No, gràcies</string>
-    <string name="face_value_prop_next">Configura</string>
-    <string name="face_value_prop_summary">"El desbloqueig facial et permet desbloquejar el teu mòbil amb la teva mirada. Degut a que el teu mòbil reconeix la teva cara, la pantalla de bloqueig només mostra les notificacions quan hi mires"</string>
     <string name="facelock_setup_notification_text">Configura el desbloqueig facial</string>
     <string name="facelock_setup_notification_title">Desbloqueja amb una mirada</string>
     <string name="face_camera_content">Centra la cara</string>

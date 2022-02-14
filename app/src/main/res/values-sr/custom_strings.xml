@@ -5,11 +5,9 @@
     <string name="attr_light_high">Лице је превише осветљено</string>
     <string name="attr_light_shadow">На лицу има превише сенки</string>
     <string name="btn_done">Готово</string>
-    <string name="btn_try">ПРОБАЈ ПОНОВО</string>
     <string name="face_intro_conten_first_point">Препознавање лица је мање безбедно од шаблона, PIN кода или лозинке</string>
     <string name="face_intro_content_second_point">Неко ко личи на вас би могао да откључа телефон</string>
     <string name="face_intro_content_third_point">Подаци за препознавање лица се безбедно чувају на вашем телефону</string>
-    <string name="face_intro_next">ДАЉЕ</string>
     <string name="face_intro_remember">Запамтите:</string>
     <string name="face_intro_summary">Откључајте телефон тако што ћете га погледати.</string>
     <string name="face_intro_title">О откључавању лицем</string>

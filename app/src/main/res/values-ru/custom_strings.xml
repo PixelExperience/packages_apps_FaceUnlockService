@@ -5,17 +5,12 @@
     <string name="attr_light_high">Лицо переосвещено</string>
     <string name="attr_light_shadow">На лице слишком много теней</string>
     <string name="btn_done">Готово</string>
-    <string name="btn_try">ПОВТОРИТЬ</string>
     <string name="face_intro_conten_first_point">Распознавание по лицу менее безопасно, чем использование графического ключа, PIN-кода или пароля.</string>
     <string name="face_intro_content_second_point">Внешне похожие на вас люди могут разблокировать телефон.</string>
     <string name="face_intro_content_third_point">Данные для распознавания вашего лица хранятся на телефоне.</string>
-    <string name="face_intro_next">ДАЛЕЕ</string>
     <string name="face_intro_remember">Обратите внимание:</string>
     <string name="face_intro_summary">Разблокируйте ваш телефон, посмотрев на него.</string>
     <string name="face_intro_title">О функции разблокировки по лицу</string>
-    <string name="face_value_prop_cancel">Нет, спасибо</string>
-    <string name="face_value_prop_next">Настроить</string>
-    <string name="face_value_prop_summary">"Разблокировка по лицу позволяет с лёгкостью разблокировать телефон, просто взглянув на него. Поскольку телефон распознает ваше лицо, на экране блокировки уведомления отображаются только тогда, когда вы смотрите на него"</string>
     <string name="facelock_setup_notification_text">Настройте разблокировку по лицу</string>
     <string name="facelock_setup_notification_title">Разблокировка взглядом</string>
     <string name="face_camera_content">Выровняйте положение лица</string>

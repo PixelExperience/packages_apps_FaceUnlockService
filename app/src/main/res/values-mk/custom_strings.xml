@@ -5,17 +5,12 @@
     <string name="attr_light_high">Лицето е премногу осветлено</string>
     <string name="attr_light_shadow">На лицето има премногу сенки</string>
     <string name="btn_done">Готово</string>
-    <string name="btn_try">ПРОБАЈ ПАК</string>
     <string name="face_intro_conten_first_point">Препознавањето лик е помалку безбедно од шема, PIN или лозинка</string>
     <string name="face_intro_content_second_point">Некој кој наликува на вас би можел да ви го отклучи телефонот</string>
     <string name="face_intro_content_third_point">Податоците што се користат за препознавање на вашиот лик се приватно складирани на вашиот телефон</string>
-    <string name="face_intro_next">СЛЕДНО</string>
     <string name="face_intro_remember">Запомнете:</string>
     <string name="face_intro_summary">Отклучете го телефонот така што ќе го погледнете.</string>
     <string name="face_intro_title">За отклучувањето со лик</string>
-    <string name="face_value_prop_cancel">Не, благодарам</string>
-    <string name="face_value_prop_next">Постави</string>
-    <string name="face_value_prop_summary">"Отклучувањето со лице ви овозможува едноставно да го отклучите телефонот така што едноставно ќе погледнете во него. Бидејќи телефонот го препознава вашето лице, заклучениот екран ги прикажува известувањата само кога вие гледате во него"</string>
     <string name="facelock_setup_notification_text">Поставете отклучување со лик</string>
     <string name="facelock_setup_notification_title">Отклучување со поглед</string>
     <string name="face_camera_content">Порамнете го вашето лице</string>

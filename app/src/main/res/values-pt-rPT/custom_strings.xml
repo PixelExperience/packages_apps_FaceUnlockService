@@ -5,17 +5,12 @@
     <string name="attr_light_high">A face tem demasiada luz</string>
     <string name="attr_light_shadow">Face com demasiadas sombras</string>
     <string name="btn_done">Concluído</string>
-    <string name="btn_try">Tentar novamente</string>
     <string name="face_intro_conten_first_point">O desbloqueio facial é menos seguro do que um padrão, PIN ou palavra-passe</string>
     <string name="face_intro_content_second_point">Alguém parecido consigo pode desbloquear o telemóvel</string>
     <string name="face_intro_content_third_point">Os dados utilizados para o reconhecimento da face são mantidos privados no telemóvel</string>
-    <string name="face_intro_next">Seguinte</string>
     <string name="face_intro_remember">Lembre-se:</string>
     <string name="face_intro_summary">Desbloquear telefone com a sua face.</string>
     <string name="face_intro_title">Acerca do desbloqueio com a face</string>
-    <string name="face_value_prop_cancel">Não, obrigado</string>
-    <string name="face_value_prop_next">Configurar</string>
-    <string name="face_value_prop_summary">"O desbloqueio facial permite-lhe aceder facilmente ao telemóvel com a sua face. Uma vez que o telemóvel reconhece o seu rosto, o ecrã de bloqueio só mostra as notificações se você estiver a olhar para ele"</string>
     <string name="facelock_setup_notification_text">Configurar desbloqueio facial</string>
     <string name="facelock_setup_notification_title">Desbloquear com um olhar</string>
     <string name="face_camera_content">Alinhe a sua face</string>

@@ -5,11 +5,9 @@
     <string name="attr_light_high">មុខមានពន្លឺខ្លាំងពេក</string>
     <string name="attr_light_shadow">មុខមានស្រមោលច្រើនពេក</string>
     <string name="btn_done">ធ្វើរួច</string>
-    <string name="btn_try">ព្យាយាម​​ម្ដង​ទៀត</string>
     <string name="face_intro_conten_first_point">ការផ្គូផ្គងទម្រង់មុខគឺមានសុវត្ថិភាពតិចជាងលំនាំ លេខកូដ PIN ឬពាក្យសម្ងាត់</string>
     <string name="face_intro_content_second_point">នរណាម្នាក់ដែលមើលទៅដូចជាអ្នក អាចដោះសោទូរសព្ទរបស់អ្នកបាន</string>
     <string name="face_intro_content_third_point">ទិន្នន័យដែលបានប្រើប្រាស់ដើម្បីសម្គាល់មុខរបស់អ្នក ត្រូវបានរក្សាទុកជាលក្ខណៈឯកជននៅលើទូរសព្ទរបស់អ្នក</string>
-    <string name="face_intro_next">បន្ទាប់</string>
     <string name="face_intro_remember">សូមចងចាំថា៖</string>
     <string name="face_intro_summary">ដោះសោទូរសព្ទរបស់អ្នកដោយមើលវា។</string>
     <string name="face_intro_title">អំពីការដោះសោមុខ</string>

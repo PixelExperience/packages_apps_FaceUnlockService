@@ -5,11 +5,9 @@
     <string name="attr_light_high">A faciana ten luz de máis </string>
     <string name="attr_light_shadow">A faciana ten sombras de máis </string>
     <string name="btn_done">Feito</string>
-    <string name="btn_try">Téntao de novo</string>
     <string name="face_intro_conten_first_point">A coincidencia facial é menos segura que un padrón, un PIN ou un contrasinal</string>
     <string name="face_intro_content_second_point">Alguén que se lle pareza pode desbloquear o seu teléfono </string>
     <string name="face_intro_content_third_point">Os datos empregados para recoñecer a túa faciana mantéñense privados no teu teléfono</string>
-    <string name="face_intro_next">Seguinte</string>
     <string name="face_intro_remember">Lembre:</string>
     <string name="face_intro_summary">Desbloquea o teu teléfono mirándoo.</string>
     <string name="face_intro_title">Acerca do desbloqueo facial</string>

@@ -5,17 +5,12 @@
     <string name="attr_light_high">הפנים מוארות יותר מדי</string>
     <string name="attr_light_shadow">הפנים מוצללים מדי</string>
     <string name="btn_done">בוצע</string>
-    <string name="btn_try">נסה שוב</string>
     <string name="face_intro_conten_first_point">התאמת פנים היא שיטה פחות בטוחה משימוש בתבנית, PIN או סיסמה</string>
     <string name="face_intro_content_second_point">אדם שפניו דומים לשלך עלול לבטל את נעילת הטלפון</string>
     <string name="face_intro_content_third_point">הנתונים המשמשים לזיהוי הפנים נשמרים בפרטיות בטלפון שלך</string>
-    <string name="face_intro_next">הבא</string>
     <string name="face_intro_remember">זכור:</string>
     <string name="face_intro_summary">ביטול נעילת טלפון באמצעות מבט בלבד.</string>
     <string name="face_intro_title">אודות ביטול נעילה באמצעות זיהוי פרצוף</string>
-    <string name="face_value_prop_cancel">לא, תודה</string>
-    <string name="face_value_prop_next">הגדר</string>
-    <string name="face_value_prop_summary">"זיהוי פרצוף מאפשר כניסה קלה לטלפון באמצעות מבט בלבד. מכיוון הטלפון מכיר את פניך, מסך הנעילה מציג הודעות רק כאשר אתה מביט בטלפון "</string>
     <string name="facelock_setup_notification_text">הגדרת זיהוי פרצוף</string>
     <string name="facelock_setup_notification_title">בטל נעילה באמצעות מבט</string>
     <string name="face_camera_content">ישר את פניך</string>

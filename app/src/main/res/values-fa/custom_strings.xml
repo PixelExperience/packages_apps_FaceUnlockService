@@ -5,11 +5,9 @@
     <string name="attr_light_high">نور صورت خیلی زیاد است</string>
     <string name="attr_light_shadow">روی صورت خیلی سایه است</string>
     <string name="btn_done">انجام شد</string>
-    <string name="btn_try">دوباره امتحان کنید</string>
     <string name="face_intro_conten_first_point">بازگشایی قفل با صورت نسبت به الگو، پین یا رمز عبور از امنیت کمتری برخوردار است</string>
     <string name="face_intro_content_second_point">کسی که شبیه شما باشد می‌تواند قفل تلفنتان را باز کند</string>
     <string name="face_intro_content_third_point">داده‌های مورد استفاده برای شناسایی صورت شما در تلفن محرمانه باقی می‌مانند</string>
-    <string name="face_intro_next">بعدی</string>
     <string name="face_intro_remember">به خاطر داشته باشید:</string>
     <string name="face_intro_summary">با نگاه کردن به تلفن، قفل آن را باز کنید.</string>
     <string name="face_intro_title">درباره بازگشایی قفل با صورت</string>
