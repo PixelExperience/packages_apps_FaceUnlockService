@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Face unlock</string>
     <string name="attr_light_dark">Kailangan ng mas maraming ilaw ang mukha</string>
     <string name="attr_light_high">Napakaliwanag ng mukha</string>
     <string name="attr_light_shadow">Napakaraming anino ng mukha</string>
     <string name="btn_done">Tapos na</string>
+    <string name="btn_try_again">Subukan muli</string>
+    <string name="btn_next">Sunod</string>
     <string name="face_intro_conten_first_point">Hindi masyadong ligtas ang pagtutugma ng mukha kaysa sa pattern, PIN, o password</string>
     <string name="face_intro_content_second_point">Maaaring i-unlock ang telepono mo ng taong kahawig mo</string>
     <string name="face_intro_content_third_point">Ang data na ginamit para makilala ang mukha mo ay pribadong itinago sa iyong telepono</string>
@@ -12,6 +15,15 @@
     <string name="face_intro_title">Naka-lock ang about face</string>
     <string name="facelock_setup_notification_text">I-setup ang pag-unlock ng mukha</string>
     <string name="facelock_setup_notification_title">I-unlock sa isang iglap</string>
+    <string name="face_camera_content">I-tapat ang iyong mukha</string>
+    <string name="face_camera_content_tip">Siguraduhing nakasentro ang iyong mukha sa ibaba. Siguraduhing maliwanag ang iyong mukha at tumingin ng diretso sa iyong telepono.</string>
+    <string name="face_next_content">Handa na</string>
+    <string name="face_next_content_tip">"Ngayong na-scan mo na ang iyong mukha, maaari mo ng i-unlock ang iyong telepono sa isang tingin."</string>
+    <string name="face_try_content">May naging problema</string>
+    <string name="face_try_content_tip">"Palpak ang face scan. Siguraduhing maliwanag ang iyong mukha at tumingin sa camera."</string>
+    <string name="perm_required_alert_button_app_info">Impormasyon ng App</string>
+    <string name="perm_required_alert_msg">Kinakailangan ng face inlock ng pahintulot para ma-access ang ilang bagay sa iyong device. Piliin ang \"Permiso\" sa App info para i-enable.</string>
+    <string name="perm_required_alert_title">Kinakailangan ng pahintulot</string>
     <string name="policy_disabled_alert_msg">Dinis-able ng tagapangasiwa ang Face unlock.</string>
     <string name="title_activity_face_intro">Pagpapakilala sa pag-unlock ng mukha</string>
     <string name="unlock_failed_face_blur">Masyadong malabo ang mukha</string>
