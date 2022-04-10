@@ -25,7 +25,7 @@
     <string name="perm_required_alert_msg">Kasvojentunnistus tarvitsee luvan käyttää joitakin laitteessa olevia kohteita. Myönnä oikeudet valitsemalla sovelluksessa Käyttöoikeudet.</string>
     <string name="perm_required_alert_title">Käyttöoikeus vaaditaan</string>
     <string name="policy_disabled_alert_msg">Järjestelmänvalvoja on poistanut kasvojentunnistuksen käytöstä.</string>
-    <string name="title_activity_face_intro">Kasvojentunnistus – esittely</string>
+    <string name="title_activity_face_intro">Kasvojentunnistuksen esittely</string>
     <string name="unlock_failed_face_blur">Kasvot ovat liian sumeat</string>
     <string name="unlock_failed_face_large">Kasvot ovat liian lähellä</string>
     <string name="unlock_failed_face_multi">Liian monta kasvoa havaittu</string>
