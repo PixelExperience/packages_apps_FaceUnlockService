@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">การปลดล็อกด้วยใบหน้า</string>
-    <string name="attr_light_dark">ใบหน้าต้องการแสงเพิ่มเติม</string>
+    <string name="attr_light_dark">ใบหน้าต้องการแสงมากขึ้น</string>
     <string name="attr_light_high">ใบหน้ามีแสงมากเกินไป</string>
     <string name="attr_light_shadow">ใบหน้ามีเงามากเกินไป</string>
     <string name="btn_done">เสร็จสิ้น</string>
     <string name="btn_try_again">ลองอีกครั้ง</string>
     <string name="btn_next">ถัดไป</string>
-    <string name="face_intro_conten_first_point">การจับคู่ใบหน้าปลอดภัยน้อยกว่าการวาดรูปแบบ PIN หรือรหัสผ่าน</string>
-    <string name="face_intro_content_second_point">บางคนที่ดูคล้ายกับคุณอาจปลดล็อกโทรศัพท์ของคุณได้</string>
-    <string name="face_intro_content_third_point">ข้อมูลที่ใช้เพื่อจดจำใบหน้าของคุณจะเก็บไว้เป็นส่วนตัวในโทรศัพท์ของคุณ</string>
+    <string name="face_intro_conten_first_point">การจดจำใบหน้านั่นจะปลอดภัยน้อยกว่าการวาดรูปแบบ PIN หรือรหัสผ่าน</string>
+    <string name="face_intro_content_second_point">บางคนที่ใบหน้าดูคล้ายกับคุณอาจปลดล็อกโทรศัพท์ของคุณได้</string>
+    <string name="face_intro_content_third_point">ข้อมูลการจดจำใบหน้าของคุณจะถูกเก็บเป็นส่วนตัวไว้ในโทรศัพท์ของคุณ</string>
     <string name="face_intro_remember">โปรดจำไว้ว่า:</string>
     <string name="face_intro_summary">ปลดล็อกโทรศัพท์ของคุณโดยการมองที่เครื่อง</string>
     <string name="face_intro_title">เกี่ยวกับการปลดล็อกด้วยใบหน้า</string>
     <string name="facelock_setup_notification_text">ตั้งค่าการปลดล็อกด้วยใบหน้า</string>
     <string name="facelock_setup_notification_title">ปลดล็อกด้วยการมอง</string>
     <string name="face_camera_content">จัดให้ตรงกับใบหน้าของคุณ</string>
-    <string name="face_camera_content_tip">ตรวจสอบให้แน่ใจว่าใบหน้าของคุณอยู่ตรงกลางทางด้านล่าง ใบหน้าของคุณต้องได้รับแสงสว่างเพียงพอและมองตรงที่โทรศัพท์ของคุณ</string>
+    <string name="face_camera_content_tip">ตรวจสอบให้แน่ใจว่าใบหน้าของคุณอยู่ตรงกลาง ใบหน้าของคุณต้องได้รับแสงสว่างเพียงพอและมองตรงที่โทรศัพท์ของคุณ</string>
     <string name="face_next_content">เรียบร้อยแล้ว</string>
-    <string name="face_next_content_tip">"ตอนนี้คุณได้สแกนใบหน้าของคุณแล้ว คุณสามารถปลดล็อกโทรศัพท์ได้โดยเพียงแค่มอง"</string>
+    <string name="face_next_content_tip">"ตอนนี้คุณได้สแกนใบหน้าของคุณแล้ว คุณสามารถปลดล็อกโทรศัพท์ได้ทันทีโดยเพียงแค่มอง"</string>
     <string name="face_try_content">มีบางอย่างผิดพลาด</string>
     <string name="face_try_content_tip">"การสแกนใบหน้าล้มเหลว คุณต้องมีแสงสว่างเพียงพอและมองที่กล้อง"</string>
     <string name="perm_required_alert_button_app_info">ข้อมูลแอป</string>
