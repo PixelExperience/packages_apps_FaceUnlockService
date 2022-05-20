@@ -22,7 +22,7 @@
     <string name="face_try_content">某個地方出錯了</string>
     <string name="face_try_content_tip">"臉部掃描失敗。請確定臉部的光線充足，並且直視相機。"</string>
     <string name="perm_required_alert_button_app_info">應用程式資訊</string>
-    <string name="perm_required_alert_msg">臉部辨識解鎖需要權限才能存取您裝置上的某些功能。請在 [應用程式資訊] 中選取 [權限] 以啟用。</string>
+    <string name="perm_required_alert_msg">臉部辨識解鎖需要權限才能存取您裝置上的某些功能。請在「應用程式資訊」中選取「權限」以啟用。</string>
     <string name="perm_required_alert_title">需要權限</string>
     <string name="policy_disabled_alert_msg">管理員已停用臉部辨識解鎖功能。</string>
     <string name="title_activity_face_intro">臉部辨識解鎖簡介</string>
