@@ -22,7 +22,7 @@
     <string name="face_try_content">Coś poszło nie tak</string>
     <string name="face_try_content_tip">"Skanowanie twarzy nie powiodło się. Upewnij się, że jesteś dobrze oświetlony i patrzysz w stronę kamery."</string>
     <string name="perm_required_alert_button_app_info">Informacje o aplikacji</string>
-    <string name="perm_required_alert_msg">Odblokowanie twarzy wymaga zezwolenia na dostęp do niektórych rzeczy w urządzeniu. Wybierz \"Uprawnienia\" w informacjach o aplikacji, aby je włączyć.</string>
+    <string name="perm_required_alert_msg">Funkcja rozpoznania twarzy wymaga uprawnień dostępu do niektórych funkcji urządzenia. Wybierz „Uprawnienia” w informacjach o aplikacji, aby je włączyć.</string>
     <string name="perm_required_alert_title">Wymagane uprawnienia</string>
     <string name="policy_disabled_alert_msg">Rozpoznanie twarzy wyłączone przez administratora.</string>
     <string name="title_activity_face_intro">Wprowadzenie dotyczące funkcji rozpoznania twarzy</string>
