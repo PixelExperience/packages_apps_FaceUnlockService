@@ -9,7 +9,7 @@
     <string name="btn_next">Siguiente</string>
     <string name="face_intro_conten_first_point">El reconocimiento facial es menos seguro que un patrón, un código PIN o una contraseña.</string>
     <string name="face_intro_content_second_point">Alguien que se parezca a ti podría desbloquear tu teléfono</string>
-    <string name="face_intro_content_third_point">Los datos que se utilizan para reconocer tu rostro se mantienen privadamente solo en tu teléfono</string>
+    <string name="face_intro_content_third_point">Los datos que se utilizan para reconocer tu rostro se mantienen privados solo en tu teléfono</string>
     <string name="face_intro_remember">Recuerda:</string>
     <string name="face_intro_summary">Desbloquea el teléfono con solo mirarlo.</string>
     <string name="face_intro_title">Acerca del desbloqueo facial</string>

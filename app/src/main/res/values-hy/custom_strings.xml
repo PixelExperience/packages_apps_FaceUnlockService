@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Դեմքով արգելաբացում</string>
+    <string name="attr_light_dark">Դեմքի լուսավորությունը պակասում է</string>
+    <string name="attr_light_high">Դեմքի լուսավորությունը չափազանց շատ է</string>
+    <string name="attr_light_shadow">Դեմքի վրայի շողքերը չափազանց շատ են</string>
     <string name="btn_done">Պատրաստ է</string>
+    <string name="btn_try_again">Կրկին փորձեք</string>
+    <string name="btn_next">Հաջորդ</string>
+    <string name="face_intro_conten_first_point">Դեմքով նույնականացումն ավելի քիչ ապահով է, քան նկարով, PIN-ով կամ գաղտնաբառով նույնականացումը</string>
+    <string name="face_intro_content_second_point">Ձեզ նման մարդը կարող է ապաբլոկավորել ձեր հեռախոսը</string>
     <string name="face_intro_remember">Հիշել․</string>
 </resources>
