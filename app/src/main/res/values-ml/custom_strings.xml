@@ -2,9 +2,22 @@
 <resources>
     <string name="app_name">മുഖം തിരിച്ചറിഞ്ഞുള്ള അൺലോക്ക്.</string>
     <string name="attr_light_dark">മുഖത്ത് കൂടുതൽ വെളിച്ചം  ആവശ്യമുണ്ട് </string>
+    <string name="attr_light_high">മുഖത്ത് ഒരുപാട് വെളിച്ചം ഉണ്ട്</string>
+    <string name="attr_light_shadow">മുഖത്ത് ഒരുപാട് നിഴലുകളുണ്ട്</string>
     <string name="btn_done">ചെയ്തു</string>
     <string name="btn_try_again">വീണ്ടും ശ്രമിക്കൂ!</string>
+    <string name="btn_next">അടുത്തത്</string>
+    <string name="face_intro_conten_first_point">ഒരു പാറ്റേൺ, പിൻ അല്ലെങ്കിൽ പാസ്‍വേഡ് എന്നിവയെക്കാൾ സുരക്ഷ നൽകുന്നതല്ല ഫേസ് മാച്ചിംഗ്</string>
+    <string name="face_intro_content_second_point">നിങ്ങളുടെ മുഖത്തോട് സാമ്യമുള്ള ഒരാൾക്ക് നിങ്ങളുടെ ഫോൺ അൺലോക്ക് ചെയ്യാൻ കഴിയും</string>
+    <string name="face_intro_content_third_point">നിങ്ങളുടെ മുഖം തിരിച്ചറിയാൻ ഉപയോഗിക്കുന്ന ഡാറ്റ നിങ്ങളുടെ ഫോണിൽ സ്വകാര്യമായി സൂക്ഷിക്കും</string>
     <string name="face_intro_remember">ഓർക്കുക:</string>
+    <string name="face_intro_summary">അതിലേക്ക് നോക്കി ഫോണിലേക്ക് അൺലോക്ക് ചെയ്യുക</string>
+    <string name="face_intro_title">ഫേസ് അൺലോക്കിനെ കുറിച്ച്</string>
+    <string name="facelock_setup_notification_text">ഫെയ്‌സ് അൺലോക്ക് സജ്ജീകരിക്കുക</string>
+    <string name="facelock_setup_notification_title">ഞൊടിയിടയിൽ അൺലോക്ക് ചെയ്യുക</string>
+    <string name="face_camera_content">മുഖം കൃത്യമായി വെയ്ക്കുക</string>
+    <string name="face_next_content">എല്ലാ സജ്ജീകരിച്ചു!</string>
+    <string name="face_try_content">എന്തോ കുഴപ്പം സംഭവിച്ചു</string>
     <string name="perm_required_alert_title">അനുമതികൾ ആവശ്യമായിരിക്കുന്നു </string>
     <string name="unlock_failed_face_large">മൂഖം വളരെ അടുത്താണ് </string>
     <string name="unlock_failed_face_multi">ഒരുപാട് മുഖങ്ങൾ ശ്രദ്ധയിൽപ്പെട്ടു </string>

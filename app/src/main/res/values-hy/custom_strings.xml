@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Դեմքով արգելաբացում</string>
-    <string name="attr_light_dark">Դեմքի լուսավորությունը պակասում է</string>
-    <string name="attr_light_high">Դեմքի լուսավորությունը չափազանց շատ է</string>
-    <string name="attr_light_shadow">Դեմքի վրայի շողքերը չափազանց շատ են</string>
+    <string name="app_name">Դեմքով ապակողպում</string>
+    <string name="attr_light_dark">Դեմքը լավ լուսավորված չէ</string>
+    <string name="attr_light_high">Դեմքը չափազանց շատ է լուսավորված</string>
+    <string name="attr_light_shadow">Դեմքը չափազանց շատ ստվերներ ունի</string>
     <string name="btn_done">Պատրաստ է</string>
-    <string name="btn_try_again">Կրկին փորձեք</string>
-    <string name="btn_next">Հաջորդ</string>
-    <string name="face_intro_conten_first_point">Դեմքով նույնականացումն ավելի քիչ ապահով է, քան նկարով, PIN-ով կամ գաղտնաբառով նույնականացումը</string>
-    <string name="face_intro_content_second_point">Ձեզ նման մարդը կարող է ապաբլոկավորել ձեր հեռախոսը</string>
-    <string name="face_intro_remember">Հիշել․</string>
+    <string name="btn_try_again">Նորից փորձեք</string>
+    <string name="btn_next">Հաջորդը</string>
+    <string name="face_intro_conten_first_point">Դեմքի ճանաչումն ավելի քիչ անվտանգ է, քան նախշի, PIN-ի կամ գաղտնաբառի օգտագործումը:</string>
+    <string name="face_intro_content_second_point">Ինչ-որ մեկը ձեզ նման կարող է ապակողպել ձեր հեռախոսը</string>
+    <string name="face_intro_content_third_point">Ձեր դեմքը ճանաչելու համար օգտագործվող տվյալները պահվում են գաղտնի ձեր հեռախոսում</string>
+    <string name="face_intro_remember">Ուշադրություն դարձրեք.</string>
+    <string name="face_intro_summary">Բացեք ձեր հեռախոսը՝ նայելով դրան:</string>
+    <string name="face_intro_title">Դեմքով ապակողպման մասին</string>
+    <string name="facelock_setup_notification_text">Կարգավորեք դեմքով ապակողպումը</string>
+    <string name="facelock_setup_notification_title">Բացել մի հայացքով</string>
+    <string name="face_camera_content">Հավասարեցրեք ձեր դեմքի դիրքը</string>
+    <string name="face_camera_content_tip">Համոզվեք, որ ձեր դեմքը կենտրոնացված է և լավ լուսավորված։ Նայեք ուղիղ ձեր հեռախոսին:</string>
+    <string name="face_next_content">Պատրաստ է</string>
+    <string name="face_next_content_tip">"Դուք ավարտել եք ձեր դեմքի սկանավորումը և այժմ կարող եք ապակողպել ձեր հեռախոսը՝ պարզապես նայելով դրան:"</string>
+    <string name="face_try_content">Ինչ որ բան այնպես չգնաց</string>
+    <string name="face_try_content_tip">"Դեմքի սկանավորումը ձախողվեց: Համոզվեք, որ լավ լուսավորված եք և նայում եք տեսախցիկին:"</string>
+    <string name="perm_required_alert_button_app_info">Հավելվածի մասին</string>
+    <string name="perm_required_alert_msg">Դեմքով ապակողպման համար անհրաժեշտ է ձեր սարքի որոշ թույլտվություններ։ Միացնելու համար հավելվածի տեղեկություններում ընտրեք «Թույլտվություններ» բաժինը:</string>
+    <string name="perm_required_alert_title">Անհրաժեշտ են թույլտվություններ</string>
+    <string name="policy_disabled_alert_msg">Դեմքով ապակողպումն անջատվել է ադմինիստրատորի կողմից:</string>
+    <string name="title_activity_face_intro">Ընդհանուր տեղեկություններ դեմքով ապակողպման մասին</string>
+    <string name="unlock_failed_face_blur">Դեմքը չափազանց լղոզված է</string>
+    <string name="unlock_failed_face_large">Դեմքը չափազանց մոտ է</string>
+    <string name="unlock_failed_face_multi">Չափազանց շատ դեմքեր են հայտնաբերվել</string>
+    <string name="unlock_failed_face_not_complete">Հայտնաբերվել է միայն դեմքի մի մասը</string>
+    <string name="unlock_failed_face_small">Դեմքը շատ հեռու է</string>
+    <string name="upgrade_finish_summary">"Այժմ դուք կարող եք ապակողպել ձեր սարքը դեմքով ապակողպման միջոցով"</string>
+    <string name="upgrade_finish_title">Գերազանց!</string>
 </resources>
