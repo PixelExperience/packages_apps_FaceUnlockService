@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_done">Yemmed</string>
+    <string name="btn_try_again">Ɛreḍ tikkelt-nniḍen</string>
+    <string name="btn_next">Uḍfir</string>
+    <string name="face_intro_remember">Cfu:</string>
+    <string name="perm_required_alert_button_app_info">Talɣut n usnas</string>
+</resources>
