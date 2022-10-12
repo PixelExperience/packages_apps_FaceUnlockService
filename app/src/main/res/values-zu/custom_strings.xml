@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ukuvula ngobuso</string>
+    <string name="attr_light_dark">Ubuso budinga ukukhanya okwengeziwe</string>
+    <string name="attr_light_high">Ubuso bunokukhanya okuningi kakhulu</string>
+    <string name="attr_light_shadow">Ubuso bunezithunzi eziningi kakhulu</string>
+    <string name="btn_done">Kwenziwe</string>
+    <string name="btn_try_again">Zama futhi</string>
+    <string name="btn_next">Olandelayo</string>
+    <string name="face_intro_conten_first_point">Ukufanisa ubuso kuvikeleke kancane kunephethini, iphinikhodi, noma iphasiwedi</string>
+    <string name="face_intro_content_second_point">Umuntu ofana nawe angavula ifoni yakho</string>
+    <string name="face_intro_content_third_point">Idatha esetshenziselwa ukubona ubuso bakho igcinwa iyimfihlo kufoni yakho</string>
+    <string name="face_intro_remember">Khumbula:</string>
+    <string name="face_intro_summary">Vula ifoni yakho ngokuyibuka.</string>
+    <string name="face_intro_title">Mayelana nokuvula ubuso</string>
+    <string name="facelock_setup_notification_text">Setha i-face unlock</string>
+    <string name="facelock_setup_notification_title">Vula ngokubuka nje</string>
+    <string name="face_camera_content">Qondanisa ubuso bakho</string>
+    <string name="face_camera_content_tip">Qiniseka ukuthi ubuso bakho bumaphakathi ngezansi. Gcina ubuso bakho bukhanyiswe kahle futhi ubheke ngqo ocingweni lwakho.</string>
+    <string name="face_next_content">Konke kusethiwe</string>
+    <string name="face_next_content_tip">"Manje njengoba ususkene ubuso bakho, ungakwazi ukuvula ifoni yakho ngokubuka nje."</string>
+    <string name="face_try_content">Kukhona into engahambanga kahle</string>
+    <string name="face_try_content_tip">"Ukuskena kobuso kuhlulekile. Qiniseka ukuthi ukhanyise kahle futhi ubheke ikhamera."</string>
+    <string name="perm_required_alert_button_app_info">Ulwazi Lokusebenza</string>
+    <string name="perm_required_alert_msg">Ukuvula ngobuso kudinga imvume yokufinyelela ezinye izinto kudivayisi yakho. Khetha \"Izimvume\" kulwazi lohlelo lokusebenza ukuze ulunike amandla.</string>
+    <string name="perm_required_alert_title">Izimvume ezidingekayo</string>
+    <string name="policy_disabled_alert_msg">Ukuvula ngobuso kukhutshazwe umlawuli.</string>
+    <string name="title_activity_face_intro">Isingeniso sokuvula ngobuso</string>
+    <string name="unlock_failed_face_blur">Ubuso bufiphele kakhulu</string>
+    <string name="unlock_failed_face_large">Ubuso busondele kakhulu</string>
+    <string name="unlock_failed_face_multi">Kutholwe ubuso obuningi kakhulu</string>
+    <string name="unlock_failed_face_not_complete">Kutholwe ubuso obuyingxenye kuphela</string>
+    <string name="unlock_failed_face_small">Ubuso bukude kakhulu</string>
+    <string name="upgrade_finish_summary">"Manje usulungele ukuvula idivayisi yakho nge-Face unlock
+"</string>
+    <string name="upgrade_finish_title">Kulungile!</string>
+</resources>
