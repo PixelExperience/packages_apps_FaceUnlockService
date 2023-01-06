@@ -16,7 +16,7 @@
     <string name="facelock_setup_notification_text">ตั้งค่าการปลดล็อกด้วยใบหน้า</string>
     <string name="facelock_setup_notification_title">ปลดล็อกด้วยการมอง</string>
     <string name="face_camera_content">จัดให้ตรงกับใบหน้าของคุณ</string>
-    <string name="face_camera_content_tip">ตรวจสอบให้แน่ใจว่าใบหน้าของคุณอยู่ตรงกลาง ใบหน้าของคุณต้องได้รับแสงสว่างเพียงพอและมองตรงที่โทรศัพท์ของคุณ</string>
+    <string name="face_camera_content_tip">ตรวจสอบให้แน่ใจว่าใบหน้าของคุณอยู่ตรงกลางวงกลม โดยที่ใบหน้าของคุณต้องได้รับแสงสว่างเพียงพอและมองตรงมาที่โทรศัพท์ของคุณ</string>
     <string name="face_next_content">เรียบร้อยแล้ว</string>
     <string name="face_next_content_tip">"ตอนนี้คุณได้สแกนใบหน้าของคุณแล้ว คุณสามารถปลดล็อกโทรศัพท์ได้ทันทีโดยเพียงแค่มอง"</string>
     <string name="face_try_content">มีบางอย่างผิดพลาด</string>
@@ -25,11 +25,11 @@
     <string name="perm_required_alert_msg">การปลดล็อกด้วยใบหน้าต้องการสิทธิ์ในการเข้าถึงบางสิ่งในอุปกรณ์ของคุณ เลือก \"สิทธิ์\" ในข้อมูลแอปพลิเคชันเพื่อเปิดใช้งาน</string>
     <string name="perm_required_alert_title">ต้องการการอนุญาต</string>
     <string name="policy_disabled_alert_msg">การปลดล็อกด้วยใบหน้าถูกปิดใช้งานโดยผู้ดูแลระบบ</string>
-    <string name="title_activity_face_intro">การแนะนำการปลดล็อกด้วยใบหน้า</string>
+    <string name="title_activity_face_intro">คำแนะนำการปลดล็อกด้วยใบหน้า</string>
     <string name="unlock_failed_face_blur">ใบหน้าเบลอเกินไป</string>
     <string name="unlock_failed_face_large">ใบหน้าอยู่ใกล้เกินไป</string>
     <string name="unlock_failed_face_multi">ตรวจพบใบหน้ามากเกินไป</string>
-    <string name="unlock_failed_face_not_complete">ตรวจพบใบหน้าบางส่วนเท่านั้น</string>
+    <string name="unlock_failed_face_not_complete">ตรวจพบใบหน้าเพียงบางส่วนเท่านั้น</string>
     <string name="unlock_failed_face_small">ใบหน้าอยู่ไกลเกินไป</string>
     <string name="upgrade_finish_summary">"ตอนนี้คุณพร้อมสำหรับการปลดล็อกอุปกรณ์ของคุณด้วยใบหน้าแล้ว"</string>
     <string name="upgrade_finish_title">ใช่เลย!</string>

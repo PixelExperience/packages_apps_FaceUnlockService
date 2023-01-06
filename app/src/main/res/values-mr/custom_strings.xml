@@ -5,6 +5,8 @@
     <string name="attr_light_high">चेहऱ्यावर खूपच प्रकाश आहे</string>
     <string name="attr_light_shadow">चेहऱ्यावर खूपच सावली आहे</string>
     <string name="btn_done">पूर्ण झाले</string>
+    <string name="btn_try_again">परत प्रयत्न करा</string>
+    <string name="btn_next">पुढील</string>
     <string name="face_intro_conten_first_point">चेहरा जुळणी ही पॅटर्न, PIN किंवा पासवर्डपेक्षा कमी सुरक्षित आहे</string>
     <string name="face_intro_content_second_point">आपल्यासारखे दिसणारे कोणीतरी आपला फोन उघडू शकते</string>
     <string name="face_intro_content_third_point">आपला चेहरा ओळखण्यासाठी वापरण्यात येणारा डेटा आपल्या फोनवर खाजगी ठेवला जातो</string>
@@ -13,6 +15,15 @@
     <string name="face_intro_title">चेहरा अनलॉक विषयी</string>
     <string name="facelock_setup_notification_text">चेहरा अनलॉक सेटअप करा</string>
     <string name="facelock_setup_notification_title">एका कटाक्षा सह अनलॉक करा</string>
+    <string name="face_camera_content">चेहरा संरेखित करा </string>
+    <string name="face_camera_content_tip">तुमचा चेहरा खाली मध्यभागी असल्याची खात्री करा.  तुमचा चेहरा चांगला प्रज्वलित ठेवा आणि थेट तुमच्या फोनकडे पहा.</string>
+    <string name="face_next_content">सगळं ठीक झाल </string>
+    <string name="face_next_content_tip">"आता तुम्ही तुमचा चेहरा स्कॅन केला आहे, तुम्ही फक्त एका नजरेत तुमचा फोन अनलॉक करू शकता."</string>
+    <string name="face_try_content">काहीतरी चुकीचे झाले </string>
+    <string name="face_try_content_tip">"चेहरा स्कॅन अयशस्वी झाले आहे.  तुम्ही उजेडात आहात आणि कॅमेरा कडे पाहत आहात याची खात्री करा."</string>
+    <string name="perm_required_alert_button_app_info">ॲप माहिती </string>
+    <string name="perm_required_alert_msg">चेहरा अनलॉकला आपल्या उपकरणावरील काही गोष्टी ॲक्सेस करण्यासाठी परवानगीची आवश्यकता आहे. कार्यान्वित करण्यासाठी ॲप माहितीमध्ये “परवानग्या” निवडा.</string>
+    <string name="perm_required_alert_title">परवानग्या आवश्यक आहेत</string>
     <string name="policy_disabled_alert_msg">कॅमेरा अनलॉक प्रशासकाद्वारे अक्षम केला गेला आहे.</string>
     <string name="title_activity_face_intro">चेहरा अनलॉक परिचय</string>
     <string name="unlock_failed_face_blur">चेहरा खूप अस्पष्ट आहे</string>

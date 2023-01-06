@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">फ़ेस अनलॉक</string>
-    <string name="attr_light_dark">चेहरे पर और प्रकाश की ज़रूरत है</string>
-    <string name="attr_light_high">चेहरे पर प्रकाश काफ़ी ज़्यादा है</string>
+    <string name="attr_light_dark">चेहरे पर अधिक प्रकाश की ज़रूरत है</string>
+    <string name="attr_light_high">चेहरे पर प्रकाश बहुत ज़्यादा है</string>
     <string name="attr_light_shadow">चेहरे पर कई परछाइयां हैं</string>
     <string name="btn_done">हो गया</string>
-    <string name="face_intro_conten_first_point">चेहरा मिलाने की सुविधा प्रतिमान, पिन या पासवर्ड से कम सुरक्षित होती है</string>
+    <string name="btn_try_again">पुनः प्रयास करें</string>
+    <string name="face_intro_conten_first_point">चेहरा मिलाने की सुविधा पैटर्न, पिन या पासवर्ड से कम सुरक्षित होती है</string>
     <string name="face_intro_content_second_point">आपके समान दिखने वाला कोई व्यक्ति आपका फ़ोन अनलॉक कर सकता है</string>
     <string name="face_intro_content_third_point">आपके चेहरे की पहचान करने के लिए उपयोग किया जाने वाला डेटा आपके फ़ोन पर निजी रखा जाता है</string>
     <string name="face_intro_remember">याद रखें:</string>
-    <string name="face_intro_summary">अपने फ़ोन को देख कर उसे अनलॉक करें.</string>
+    <string name="face_intro_summary">अपने फ़ोन की तरफ़ देख कर उसे अनलॉक करें.</string>
     <string name="face_intro_title">चेहरे से अनलॉक के बारे में</string>
-    <string name="facelock_setup_notification_text">चेहरे से अनलॉक सेट करें</string>
+    <string name="facelock_setup_notification_text">चेहरे के अनलॉक को सेट करें</string>
     <string name="facelock_setup_notification_title">पलक झपकते ही अनलॉक करें</string>
     <string name="face_camera_content">अपना चेहरा सीध में करें।</string>
     <string name="face_camera_content_tip">सुनिश्चित करें कि आपका चेहरा नीचे केंद्र में हो. अपने चेहरे को उचित प्रकाश में रखें और सीधे अपने फ़ोन पर देखें.</string>
     <string name="face_next_content">सब तैयार है</string>
     <string name="face_next_content_tip">"अब जब आप अपना चेहरा स्कैन कर चुके हैं, आप पलक झपकते ही अपना फ़ोन अनलॉक कर सकते हैं."</string>
-    <string name="face_try_content">कुछ गड़बड़ हो गयी</string>
+    <string name="face_try_content">कुछ गलत हो गया</string>
     <string name="face_try_content_tip">"फेस स्कैन विफल हुआ. सुनिश्चित करें कि आप उचित प्रकाश में हैं और सीधे कैमरे में देख रहे हैं."</string>
-    <string name="perm_required_alert_button_app_info">ऐप्लिकेशन की जानकारी</string>
+    <string name="perm_required_alert_button_app_info">ऐप्लिकेशन की जानकारी(के बारे में)</string>
     <string name="perm_required_alert_msg">फ़ेस अनलॉक को आपके फ़ोन पर मौजूद कुछ चीज़ों पर पहुंच प्राप्त करने के लिए अनुमति की आवश्यकता है. सक्षम करने के लिए ऐप जानकारी में \"अनुमतियां\" चुनें.</string>
-    <string name="perm_required_alert_title">अनुमति की आवश्यक हैं</string>
+    <string name="perm_required_alert_title">अनुमति की आवश्यकता हैं</string>
     <string name="policy_disabled_alert_msg">चेहरे से अनलॉक को आपके व्यवस्थापक द्वारा अक्षम कर दिया गया है.</string>
     <string name="title_activity_face_intro">चेहरे से अनलॉक का परिचय</string>
     <string name="unlock_failed_face_blur">चेहरा बहुत धुंधला है</string>
-    <string name="unlock_failed_face_large">चेहरा बहुत पास है</string>
+    <string name="unlock_failed_face_large">चेहरा बहुत समीप है</string>
     <string name="unlock_failed_face_multi">कई चेहरों का पता चला</string>
     <string name="unlock_failed_face_not_complete">केवल चेहरे के कुछ भाग का पता चला</string>
     <string name="unlock_failed_face_small">चेहरा बहुत दूर है</string>
     <string name="upgrade_finish_summary">"अब आप अपने उपकरण को चेहरे से अनलॉक करने की सुविधा के साथ अनलॉक करने के लिए तैयार हैं"</string>
-    <string name="upgrade_finish_title">ठीक है!</string>
+    <string name="upgrade_finish_title">सब ठीक है!</string>
 </resources>
