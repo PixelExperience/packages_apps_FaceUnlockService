@@ -10,7 +10,7 @@
     <string name="face_intro_conten_first_point">El Desbloqueo facial es menos seguro que un patrón, un código PIN o una contraseña.</string>
     <string name="face_intro_content_second_point">Es posible que una persona que se parezca mucho a ti, como un gemelo idéntico, pueda desbloquear tu teléfono.</string>
     <string name="face_intro_content_third_point">Los datos que se utilizan para reconocer tu rostro se mantienen privados solo en tu teléfono</string>
-    <string name="face_intro_remember">Importante:</string>
+    <string name="face_intro_remember">Recuerda:</string>
     <string name="face_intro_summary">Desbloquea el teléfono, accede a apps y confirma pagos con solo mirar la pantalla.</string>
     <string name="face_intro_title">Acerca de Desbloqueo facial</string>
     <string name="facelock_setup_notification_text">Configurar Desbloqueo facial</string>
