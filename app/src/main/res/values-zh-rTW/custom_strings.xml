@@ -9,7 +9,7 @@
     <string name="btn_next">下一步</string>
     <string name="face_intro_conten_first_point">相較於圖案、PIN 或密碼，臉部辨識的安全性較低</string>
     <string name="face_intro_content_second_point">與您相貌相似的人可能可以解鎖您的手機</string>
-    <string name="face_intro_content_third_point">用於識別您的臉部的數據只會儲存在您的手機上，並且被視為機密資料</string>
+    <string name="face_intro_content_third_point">用於識別您的臉部的資料只會儲存在您的手機上，並且被視為機密資料</string>
     <string name="face_intro_remember">記住：</string>
     <string name="face_intro_summary">直視手機鏡頭即可解鎖。</string>
     <string name="face_intro_title">關於臉部辨識解鎖</string>

@@ -22,7 +22,7 @@
     <string name="face_try_content">Что-то пошло не так</string>
     <string name="face_try_content_tip">"Не удалось выполнить сканирование лица. Убедитесь, что лицо хорошо освещено, и вы смотрите в камеру."</string>
     <string name="perm_required_alert_button_app_info">О приложении</string>
-    <string name="perm_required_alert_msg">Функции разблокировки по лицу необходимо разрешение на доступ к некоторым данным на вашем устройстве. Выберите \"Разрешения\" в разделе информации о приложении, чтобы включить функцию.</string>
+    <string name="perm_required_alert_msg">Функции разблокировки по лицу необходимо разрешение на доступ к некоторым данным на вашем устройстве. Выберите «Разрешения» в разделе информации о приложении, чтобы включить функцию.</string>
     <string name="perm_required_alert_title">Необходимы разрешения</string>
     <string name="policy_disabled_alert_msg">Разблокировка по лицу отключена администратором.</string>
     <string name="title_activity_face_intro">Общая информация о функции разблокировки по лицу</string>
