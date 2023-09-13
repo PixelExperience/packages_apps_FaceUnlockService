@@ -5,6 +5,8 @@
     <string name="attr_light_high">Ansigtet er for oplyst</string>
     <string name="attr_light_shadow">Ansigtet har for mange skygger</string>
     <string name="btn_done">Udført</string>
+    <string name="btn_try_again">Prøv igen</string>
+    <string name="btn_next">Next</string>
     <string name="face_intro_conten_first_point">Ansigtsmatching er ikke så sikkert som et mønster, en PIN-kode eller en adgangskode</string>
     <string name="face_intro_content_second_point">Nogen, som ligner dig, kan låse din telefon op</string>
     <string name="face_intro_content_third_point">Data, der bruges til at genkende dit ansigt, opbevares som private på din telefon</string>
@@ -13,6 +15,15 @@
     <string name="face_intro_title">Om Ansigtslås</string>
     <string name="facelock_setup_notification_text">Indstil ansigtslås</string>
     <string name="facelock_setup_notification_title">Lås op med et enkelt blik</string>
+    <string name="face_camera_content">Juster dit ansigt</string>
+    <string name="face_camera_content_tip">Sørg for, at dit ansigt er centreret i feltet herunder. Sørg for, at dit ansigt er ordentligt oplyst, og kig direkte på din telefon.</string>
+    <string name="face_next_content">Alt er klart</string>
+    <string name="face_next_content_tip">"Nu hvor du har scannet dit ansigt, kan du låse din telefon op med blot et enkelt blik."</string>
+    <string name="face_try_content">Noget gik galt</string>
+    <string name="face_try_content_tip">"Ansigtsscanning mislykkedes. Sørg for, at dit ansigt er ordentligt oplyst, og at du kigger ind i kameraet."</string>
+    <string name="perm_required_alert_button_app_info">Oplysninger om appen</string>
+    <string name="perm_required_alert_msg">Ansigtslås skal have tilladelse for at få adgang til bestemte ting på din enhed. Vælg \"Tilladelser\" under Oplysninger om appen for at aktivere.</string>
+    <string name="perm_required_alert_title">Tilladelser påkrævet</string>
     <string name="policy_disabled_alert_msg">Ansigtslås er blevet deaktiveret af administratoren.</string>
     <string name="title_activity_face_intro">Introduktion til Ansigtslås</string>
     <string name="unlock_failed_face_blur">Ansigtet er alt for utydeligt</string>
