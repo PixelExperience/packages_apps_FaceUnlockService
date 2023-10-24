@@ -3,5 +3,6 @@
     <privapp-permissions package="org.pixelexperience.faceunlock">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.SYSTEM_CAMERA"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
     </privapp-permissions>
 </permissions>
